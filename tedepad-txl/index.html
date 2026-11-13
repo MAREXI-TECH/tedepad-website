@@ -121,6 +121,15 @@ section{padding:64px 0}
 @media(max-width:800px){.foot-in{grid-template-columns:1fr}}
 
 .logo-lrqa{background:var(--navy);padding:8px 10px;border-radius:8px}
+/* héroe con vídeo de fondo (portada, como la web original) */
+.hero-video{position:relative;overflow:hidden;background:#1b2a49}
+.hero-video .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero-video:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(41,61,103,.72),rgba(27,42,73,.45));z-index:1}
+.hero-video .wrap{position:relative;z-index:2}
+@media (prefers-reduced-motion:reduce){.hero-video .hero-bg{display:none}}
+.model-side{max-width:1000px;margin:0 auto;width:100%}
+.map{margin-top:28px;border-radius:12px;width:100%;max-width:1100px}
+.model img{background:#fff}
 </style>
 </head>
 <body>
@@ -134,11 +143,12 @@ section{padding:64px 0}
   <div><div class="eyebrow">Instalación sin impacto importante</div><h1>TEDEPAD <span>TXL</span></h1><p>Los equipos <strong>TEDEPAD®</strong> han sido instalados y comprobados exitosamente a bordo de diferentes embarcaciones pesqueras. La tecnología <strong>TEDEPAD</strong> está validada por el <strong>CSIC</strong> en el marco del proyecto <strong>PARASITE.</strong></p>
   <table class="specs"><tr><th>Modelo</th><td>TEDEPAD T_XL1775</td></tr><tr><th>Color</th><td>Amarillo</td></tr><tr><th>Dimensiones</th><td>2240x550x550</td></tr><tr><th>Capacidad de procesado</th><td>HASTA 600kg/hora</td></tr></table>
   <p><a class="btn" href="/docs/triptico-tedepad-es.pdf" target="_blank" rel="noopener">Descargar catálogo</a></p></div>
-  <img class="model-img" src="/img/modelo-txl.webp" alt="TEDEPAD TXL" width="900" height="573">
+  <img class="model-img" src="/img/txl-persp.webp" alt="TEDEPAD TXL" width="658" height="422">
 </div></section>
+<section><div class="wrap"><img class="model-side" src="/img/txl-side.webp" alt="TEDEPAD TXL" width="1200" height="658" loading="lazy"></div></section>
 <section class="band"><div class="wrap"><div class="logos row"><img src="/img/csic.png" alt="CSIC" width="223" height="71"><img src="/img/parasite.png" alt="PARASITE" width="231" height="83"><img src="/img/made-eu.png" alt="Products made in Europe" width="214" height="109"><img src="/img/lrqa.png" alt="LRQA" width="301" height="98" class="logo-lrqa"></div></div></section>
-<section><div class="wrap"><h2>Otros modelos</h2><div class="models"><a class="model" href="/tedepad-tm/"><img src="/img/modelo-tm.png" alt="TEDEPAD TM" width="395" height="239" loading="lazy">
-  <h3>TEDEPAD TM</h3><p>200kg/hora · 1400x550x550 mm</p></a><a class="model" href="/tedepad-ts/"><img src="/img/modelo-ts.png" alt="TEDEPAD TS" width="304" height="255" loading="lazy">
+<section><div class="wrap"><h2>Otros modelos</h2><div class="models"><a class="model" href="/tedepad-tm/"><img src="/img/modelo-tm.webp" alt="TEDEPAD TM" width="900" height="831" loading="lazy">
+  <h3>TEDEPAD TM</h3><p>200kg/hora · 1400x550x550 mm</p></a><a class="model" href="/tedepad-ts/"><img src="/img/modelo-ts.webp" alt="TEDEPAD TS" width="900" height="932" loading="lazy">
   <h3>TEDEPAD TS</h3><p>50kg/hora · 1000x550x550 mm</p></a></div></div></section>
 <section class="contact" id="contacto"><div class="wrap contact-in">
   <div><div class="eyebrow">Mantén el contacto</div><h2>Envíanos un mensaje</h2>

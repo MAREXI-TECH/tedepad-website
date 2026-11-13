@@ -121,6 +121,15 @@ section{padding:64px 0}
 @media(max-width:800px){.foot-in{grid-template-columns:1fr}}
 
 .logo-lrqa{background:var(--navy);padding:8px 10px;border-radius:8px}
+/* héroe con vídeo de fondo (portada, como la web original) */
+.hero-video{position:relative;overflow:hidden;background:#1b2a49}
+.hero-video .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero-video:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(41,61,103,.72),rgba(27,42,73,.45));z-index:1}
+.hero-video .wrap{position:relative;z-index:2}
+@media (prefers-reduced-motion:reduce){.hero-video .hero-bg{display:none}}
+.model-side{max-width:1000px;margin:0 auto;width:100%}
+.map{margin-top:28px;border-radius:12px;width:100%;max-width:1100px}
+.model img{background:#fff}
 </style>
 </head>
 <body>
@@ -132,8 +141,8 @@ section{padding:64px 0}
 <main>
 <section class="hero small"><div class="wrap"><div class="eyebrow">We eliminate 100% of parasites</div><h1>Who <span>We are</span></h1><p><strong>TEDEPAD®</strong> is a reality thanks to the collaboration of <strong>MAREXI</strong> with the design and distribution and <strong>INDUSTRIAS FERRI</strong> with the manufacture, installation and maintenance of the equipment.</p></div></section>
 <section><div class="wrap partners">
-  <article class="partner"><img src="/img/ferri.png" alt="Industrias Ferri" width="2000" height="391" class="on-dark"><h2>Ferri Marine Machinery</h2><p>For the manufacture, installation and maintenance of <strong>TEDEPAD®</strong> equipment <strong>, MAREXI</strong> has partnered with <strong>INDUSTRIAS FERRI.</strong></p><p>Industrias Ferri is a company that, for more than 50 years, has specialized in high quality and innovative deck equipment and products for all types of vessels, meeting the most stringent performance and reliability requirements.</p><p><strong>Industrias Ferri</strong> has a worldwide network of service and maintenance stations, with expert and qualified personnel ready to act 24 hours a day, 365 days a year as technical support and life cycle management of <strong>TEDEPAD®</strong>.</p><p>A Pasaxe, 81 (Gondomar, SPAIN)</p><p>info@ferri-sa.es</p><p>(+34) 986 468 201</p><p><a href="https://www.ferri-sa.es" target="_blank" rel="noopener">www.ferri-sa.es</a></p></article>
-  <article class="partner"><img src="/img/marexi.png" alt="Marexi" width="200" height="80" class="on-dark"><h2>Marexi Marine Technology</h2><p>MAREXI is a Spanish company established in Vigo in 2004 that provides technological solutions for the fishing, aquaculture, food and environmental sectors.</p><p>MAREXI designs, manufactures and markets its products, which allows customization and streamlines the service to its customers.</p><p>In addition, in order to offer maximum guarantees at international level, MAREXI has agreements with international leaders in the industrial machinery sector for the manufacture, installation, maintenance and marketing of some of its products.</p><p>Jacinto Benavente, 22 36202 Vigo, Pontevedra (Spain)</p><p>info@marexi.com</p><p>(+34) 986 248 213</p><p>(+34) 986 248 214</p><p><a href="https://www.marexi.com" target="_blank" rel="noopener">www.marexi.com</a></p></article>
+  <article class="partner"><img src="/img/logo-ferri.png" alt="Industrias Ferri" width="283" height="65"><h2>Ferri Marine Machinery</h2><p>For the manufacture, installation and maintenance of <strong>TEDEPAD®</strong> equipment <strong>, MAREXI</strong> has partnered with <strong>INDUSTRIAS FERRI.</strong></p><p>Industrias Ferri is a company that, for more than 50 years, has specialized in high quality and innovative deck equipment and products for all types of vessels, meeting the most stringent performance and reliability requirements.</p><p><strong>Industrias Ferri</strong> has a worldwide network of service and maintenance stations, with expert and qualified personnel ready to act 24 hours a day, 365 days a year as technical support and life cycle management of <strong>TEDEPAD®</strong>.</p><p>A Pasaxe, 81 (Gondomar, SPAIN)</p><p>info@ferri-sa.es</p><p>(+34) 986 468 201</p><p><a href="https://www.ferri-sa.es" target="_blank" rel="noopener">www.ferri-sa.es</a></p></article>
+  <article class="partner"><img src="/img/logo-marexi.png" alt="Marexi" width="200" height="80"><h2>Marexi Marine Technology</h2><p>MAREXI is a Spanish company established in Vigo in 2004 that provides technological solutions for the fishing, aquaculture, food and environmental sectors.</p><p>MAREXI designs, manufactures and markets its products, which allows customization and streamlines the service to its customers.</p><p>In addition, in order to offer maximum guarantees at international level, MAREXI has agreements with international leaders in the industrial machinery sector for the manufacture, installation, maintenance and marketing of some of its products.</p><p>Jacinto Benavente, 22 36202 Vigo, Pontevedra (Spain)</p><p>info@marexi.com</p><p>(+34) 986 248 213</p><p>(+34) 986 248 214</p><p><a href="https://www.marexi.com" target="_blank" rel="noopener">www.marexi.com</a></p></article>
 </div></section>
 <section class="contact" id="contacto"><div class="wrap contact-in">
   <div><div class="eyebrow">Keep in touch</div><h2>Send us a message</h2>

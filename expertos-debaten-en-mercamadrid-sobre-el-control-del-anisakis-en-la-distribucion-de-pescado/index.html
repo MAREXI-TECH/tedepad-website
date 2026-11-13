@@ -121,6 +121,15 @@ section{padding:64px 0}
 @media(max-width:800px){.foot-in{grid-template-columns:1fr}}
 
 .logo-lrqa{background:var(--navy);padding:8px 10px;border-radius:8px}
+/* héroe con vídeo de fondo (portada, como la web original) */
+.hero-video{position:relative;overflow:hidden;background:#1b2a49}
+.hero-video .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero-video:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(41,61,103,.72),rgba(27,42,73,.45));z-index:1}
+.hero-video .wrap{position:relative;z-index:2}
+@media (prefers-reduced-motion:reduce){.hero-video .hero-bg{display:none}}
+.model-side{max-width:1000px;margin:0 auto;width:100%}
+.map{margin-top:28px;border-radius:12px;width:100%;max-width:1100px}
+.model img{background:#fff}
 </style>
 </head>
 <body>
@@ -131,7 +140,7 @@ section{padding:64px 0}
 </div></header>
 <main>
 <article class="post"><div class="wrap narrow"><p class="back"><a href="/noticias/">← Volver a Noticias</a></p>
-  <time datetime="2024-11-18">18 de noviembre de 2024</time><h1>Expertos debaten en Mercamadrid sobre el control del anisakis en la distribución de pescado</h1><div class="post-body"><p><em>Imagen obtenida del LinkedIn de Proyecto GESTPAR.</em></p>
+  <time datetime="2024-11-18">18 de noviembre de 2024</time><h1>Expertos debaten en Mercamadrid sobre el control del anisakis en la distribución de pescado</h1><img class="post-img" src="/img/n-1719333546552.webp" alt="" width="1200" height="704"><div class="post-body"><p><em>Imagen obtenida del LinkedIn de Proyecto GESTPAR.</em></p>
 
 
 
@@ -176,7 +185,7 @@ section{padding:64px 0}
 
 
 <p>La jornada concluyó con la promesa de seguir fortaleciendo la colaboración entre administraciones, científicos y empresas del sector para garantizar <strong>un control más riguroso y eficiente del anisakis en la cadena de distribución alimentaria</strong>.</p></div></div></article>
-<section class="band"><div class="wrap"><h2>Noticias</h2><div class="cards"><a class="card" href="/todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez/"><img src="/img/n-lourdes-perez-gonzalez-e1745426618571.webp" alt="" width="720" height="410" loading="lazy"><div><time datetime="2025-04-25">25 de abril de 2025</time><h3>Todo lo que debes saber sobre el anisakis según la doctora Lourdes Pérez González</h3><p>El anisakis es un parásito marino cada vez más presente en la conversación sobre salud alimentaria. Puede encontrarse en pescados y cefalópodos que consumimos con frecuencia y, en algunos casos, generar desde molestias…</p><span class="more">Leer más →</span></div></a><a class="card" href="/cinco-especies-de-pescado-con-mas-riesgo-de-anisakis/"><img src="/img/n-6217.webp" alt="" width="1024" height="684" loading="lazy"><div><time datetime="2025-04-21">21 de abril de 2025</time><h3>Estas son las cinco especies de pescado con más riesgo de contener anisakis.</h3><p>El anisakis es un parásito microscópico que, aunque invisible al ojo desnudo cuando está en fase larvaria, puede convertirse en un problema bien visible en nuestra salud. En los últimos años, las autoridades sanitarias…</p><span class="more">Leer más →</span></div></a><a class="card" href="/seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida/"><img src="/img/n-679b01a83cee3-r-d-616-56-1.webp" alt="" width="990" height="660" loading="lazy"><div><time datetime="2025-04-16">16 de abril de 2025</time><h3>Seguridad alimentaria en comedores escolares: ¿qué podemos aprender del caso de Lleida?</h3><p>La reciente aparición de gusanos en raciones del comedor escolar del colegio Lestonnac de Lleida ha generado preocupación entre las familias y ha puesto en evidencia la importancia de mantener altos estándares de…</p><span class="more">Leer más →</span></div></a></div></div></section>
+<section class="band"><div class="wrap"><h2>Noticias</h2><div class="cards"><a class="card" href="/todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez/"><img src="/img/n-lourdes-perez-gonzalez-e1745426618571.webp" alt="" width="720" height="410" loading="lazy"><div><time datetime="2025-04-25">25 de abril de 2025</time><h3>Todo lo que debes saber sobre el anisakis según la doctora Lourdes Pérez González</h3><p>El anisakis es un parásito marino cada vez más presente en la conversación sobre salud alimentaria. Puede encontrarse en pescados y cefalópodos que consumimos con frecuencia y, en algunos casos, generar desde molestias…</p><span class="more">Leer más →</span></div></a><a class="card" href="/cinco-especies-de-pescado-con-mas-riesgo-de-anisakis/"><img src="/img/n-6217.webp" alt="" width="1200" height="801" loading="lazy"><div><time datetime="2025-04-21">21 de abril de 2025</time><h3>Estas son las cinco especies de pescado con más riesgo de contener anisakis.</h3><p>El anisakis es un parásito microscópico que, aunque invisible al ojo desnudo cuando está en fase larvaria, puede convertirse en un problema bien visible en nuestra salud. En los últimos años, las autoridades sanitarias…</p><span class="more">Leer más →</span></div></a><a class="card" href="/seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida/"><img src="/img/n-679b01a83cee3-r-d-616-56-1.webp" alt="" width="990" height="660" loading="lazy"><div><time datetime="2025-04-16">16 de abril de 2025</time><h3>Seguridad alimentaria en comedores escolares: ¿qué podemos aprender del caso de Lleida?</h3><p>La reciente aparición de gusanos en raciones del comedor escolar del colegio Lestonnac de Lleida ha generado preocupación entre las familias y ha puesto en evidencia la importancia de mantener altos estándares de…</p><span class="more">Leer más →</span></div></a></div></div></section>
 </main>
 <footer class="foot"><div class="wrap foot-in">
   <div><img src="/img/logo-dark.png" alt="TEDEPAD®" width="200" height="50" class="foot-logo">

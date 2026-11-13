@@ -121,6 +121,15 @@ section{padding:64px 0}
 @media(max-width:800px){.foot-in{grid-template-columns:1fr}}
 
 .logo-lrqa{background:var(--navy);padding:8px 10px;border-radius:8px}
+/* héroe con vídeo de fondo (portada, como la web original) */
+.hero-video{position:relative;overflow:hidden;background:#1b2a49}
+.hero-video .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero-video:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(41,61,103,.72),rgba(27,42,73,.45));z-index:1}
+.hero-video .wrap{position:relative;z-index:2}
+@media (prefers-reduced-motion:reduce){.hero-video .hero-bg{display:none}}
+.model-side{max-width:1000px;margin:0 auto;width:100%}
+.map{margin-top:28px;border-radius:12px;width:100%;max-width:1100px}
+.model img{background:#fff}
 </style>
 </head>
 <body>
@@ -132,9 +141,9 @@ section{padding:64px 0}
 <main>
 <section class="hero small"><div class="wrap"><div class="eyebrow">A model for each fleet segment</div><h1>Models <span>TEDEPAD</span></h1>
   <p>TEDEPAD® parasite inertizers have been designed, manufactured and successfully tested by a multidisciplinary team of engineers and technical specialists, applying our own high intensity pulsed microwave technology at all times. TEDEPAD technology is patented and validated by certified testing organizations.</p></div></section>
-<section><div class="wrap"><div class="models"><a class="model" href="/en/tedepad-txl/"><img src="/img/modelo-txl.webp" alt="TEDEPAD TXL" width="900" height="573" loading="lazy">
-  <h3>TEDEPAD TXL</h3><p>UP TO 600kg · 2240x550x550 mm</p></a><a class="model" href="/en/tedepad-tm/"><img src="/img/modelo-tm.png" alt="TEDEPAD TM" width="395" height="239" loading="lazy">
-  <h3>TEDEPAD TM</h3><p>200kg/hour · 1400x550x550 mm</p></a><a class="model" href="/en/tedepad-ts/"><img src="/img/modelo-ts.png" alt="TEDEPAD TS" width="304" height="255" loading="lazy">
+<section><div class="wrap"><div class="models"><a class="model" href="/en/tedepad-txl/"><img src="/img/modelo-txl.webp" alt="TEDEPAD TXL" width="900" height="740" loading="lazy">
+  <h3>TEDEPAD TXL</h3><p>UP TO 600kg · 2240x550x550 mm</p></a><a class="model" href="/en/tedepad-tm/"><img src="/img/modelo-tm.webp" alt="TEDEPAD TM" width="900" height="831" loading="lazy">
+  <h3>TEDEPAD TM</h3><p>200kg/hour · 1400x550x550 mm</p></a><a class="model" href="/en/tedepad-ts/"><img src="/img/modelo-ts.webp" alt="TEDEPAD TS" width="900" height="932" loading="lazy">
   <h3>TEDEPAD TS</h3><p>50kg/hour · 1000x550x550 mm</p></a></div><p class="center"><a class="btn" href="/docs/triptico-tedepad-es.pdf" target="_blank" rel="noopener">Download catalog</a></p></div></section>
 <section class="contact" id="contacto"><div class="wrap contact-in">
   <div><div class="eyebrow">Keep in touch</div><h2>Send us a message</h2>

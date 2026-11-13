@@ -121,6 +121,15 @@ section{padding:64px 0}
 @media(max-width:800px){.foot-in{grid-template-columns:1fr}}
 
 .logo-lrqa{background:var(--navy);padding:8px 10px;border-radius:8px}
+/* héroe con vídeo de fondo (portada, como la web original) */
+.hero-video{position:relative;overflow:hidden;background:#1b2a49}
+.hero-video .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero-video:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(41,61,103,.72),rgba(27,42,73,.45));z-index:1}
+.hero-video .wrap{position:relative;z-index:2}
+@media (prefers-reduced-motion:reduce){.hero-video .hero-bg{display:none}}
+.model-side{max-width:1000px;margin:0 auto;width:100%}
+.map{margin-top:28px;border-radius:12px;width:100%;max-width:1100px}
+.model img{background:#fff}
 </style>
 </head>
 <body>
@@ -130,7 +139,7 @@ section{padding:64px 0}
   <nav class="nav"><a href="/en/who-we-are/">Who we are</a><a href="/en/products/">Products</a><a href="/en/support/">Support</a><a href="/en/news/">News</a><a href="/en/contact/">Contact</a><span class="lang"><a href="/" hreflang="es" lang="es">ES</a><a href="/en/" class="on" hreflang="en" lang="en">EN</a></span></nav>
 </div></header>
 <main>
-<section class="hero"><div class="wrap hero-in">
+<section class="hero hero-video"><video class="hero-bg" autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="/video/tedepad-movil.mp4" type="video/mp4" media="(max-width: 700px)"><source src="/video/tedepad.mp4" type="video/mp4"></video><div class="wrap hero-in">
   <div><div class="eyebrow">TEDEPAD®</div><h1>Designed to eliminate Anisakids in evisceration processes on board vessels.</h1>
   <ul class="pillars"><li><b>INNOVATION</b><span>Designed to eliminate Anisakids in evisceration processes on board vessels.</span></li><li><b>TECHNOLOGY</b><span>We develop automated solutions to maximize efficiency on production lines.</span></li><li><b>SUSTAINABILITY</b><span>Committed to the environment, we use practices that respect and protect natural resources.</span></li></ul>
   <p class="cta"><a class="btn" href="/en/products/">Products</a> <a class="btn ghost" href="/docs/triptico-tedepad-es.pdf" target="_blank" rel="noopener">Download catalog</a></p></div>
