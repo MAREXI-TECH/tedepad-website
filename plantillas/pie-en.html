@@ -1,0 +1,21 @@
+<footer class="foot"><div class="wrap foot-in">
+  <div><img src="/img/logo-dark.png" alt="TEDEPAD®" width="200" height="50" class="foot-logo">
+    <p>Polígono industrial A Pasaxe, 81<br>36316 Vincios (Gondomar), Pontevedra<br><a href="tel:+34986468201">(+34) 986 468 201</a><br><a href="mailto:info@tedepad.com">info@tedepad.com</a></p>
+    <p><a class="li" href="https://www.linkedin.com/company/tedepad" target="_blank" rel="noopener">LinkedIn</a></p></div>
+  <nav class="foot-nav"><a href="/en/who-we-are/">Who we are</a><a href="/en/products/">Products</a><a href="/en/support/">Support</a><a href="/en/news/">News</a><a href="/en/contact/">Contact</a></nav>
+  <div class="foot-cert"><img src="/img/lrqa-white.png" alt="LRQA ISO 9001 · ISO 14001 · ISO 45001" width="700" height="210" loading="lazy"></div>
+</div>
+<div class="wrap foot-bottom"><span>© 2026 TEDEPAD · All Rights Reserved</span>
+  <span><a href="/en/legal-notice/">Legal notice</a> · <a href="/en/privacy-policy/">Privacy policy</a> · <a href="/en/cookies-policy/">Cookies policy</a></span></div>
+</footer>
+<script>
+document.querySelectorAll('form.contact-form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();
+var m=f.querySelector('.form-msg'),em=f.elements.email.value.trim(),tx=f.elements.message.value.trim();
+if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)||!tx){m.textContent=f.dataset.err;m.className='form-msg err';return;}
+if(!f.elements.privacy.checked){m.textContent=f.dataset.priv;m.className='form-msg err';return;}
+var b='Nombre / Name: '+f.elements.name.value+'\nCorreo / Email: '+em+'\nTeléfono / Phone: '+f.elements.phone.value+'\n\n'+tx;
+location.href='mailto:info@tedepad.com?subject='+encodeURIComponent('Web tedepad.com — '+(f.elements.name.value||em))+'&body='+encodeURIComponent(b);
+m.textContent=f.dataset.ok;m.className='form-msg ok';});});
+</script>
+</body>
+</html>
