@@ -60,6 +60,34 @@ repositorio. Para escribir en inglés: en la noticia, selector de idioma → «I
   `7b4add3ae688e7b1604c235b5aac1d007c0a414bdeee49d0ceca7c80c5549c8a`. Para actualizarlo: elegir una versión publicada
   hace al menos dos semanas, comprobar su integridad y su origen, probar en local, revisión y PR.
 
+## Política de seguridad (CSP)
+
+Al publicar, `build.py` añade a **todas las páginas** (menos `/admin/`, que tiene la suya) una política de seguridad
+(`Content-Security-Policy` en una etiqueta `<meta>`, justo al principio de `<head>`, porque GitHub Pages no deja
+poner cabeceras): **solo se ejecutan los scripts en línea de una lista fija** (`CSP_SCRIPTS` en `build.py`),
+identificados por su huella SHA-256; las páginas públicas no cargan archivos `.js` (ni siquiera de tedepad.com, para
+que no se puedan reutilizar los del panel). Imágenes de tedepad.com o incrustadas (`data:`); vídeos, estilos y fuentes
+solo de tedepad.com; ningún formulario puede enviar datos; sin iframes ni objetos incrustados. Los estilos en línea sí
+se permiten.
+
+Antes de publicar, `build.py` revisa cada página como lo haría el navegador y **para la publicación** si encuentra algo
+que la CSP bloquearía o que no debería estar: scripts en línea que no están en la lista, archivos de script, eventos
+`on…=`, enlaces `javascript:`, imágenes/estilos/vídeos de otras webs, iframes, `<base>`, formularios con `action`, una
+CSP propia, la CSP mal colocada, o archivos que pueden ejecutar código fuera de `/admin/` (`.svg`, `.htm`, `.js`…).
+Los datos `<script type="application/ld+json">` sí se permiten.
+
+Hoy la lista tiene dos scripts: el del **formulario de contacto** (pie de todas las páginas, `plantillas/pie-*.html`)
+y el de **redirección de direcciones antiguas** (`404.html`).
+
+> **Importante — al cambiar uno de esos scripts (o añadir otro), hay que actualizar su huella en `CSP_SCRIPTS`.**
+> Si no se hace, la publicación **se para** con un error «script en línea no permitido (sha256-…)» que dice la página
+> y la huella nueva (la web sigue como estaba; no se rompe). Pasos: `python build.py` → comprobar que el cambio es
+> legítimo → poner la huella nueva en `CSP_SCRIPTS` (y quitar la vieja si ya no se usa) → volver a generar → commit →
+> `bash tools/huella_codigo.sh --update` → commit. Nunca añadir `'unsafe-inline'` a los scripts para «arreglarlo».
+
+Límite conocido: con la etiqueta `<meta>` no se puede usar `frame-ancestors`, así que otra web podría mostrar las
+páginas públicas dentro de un marco (no tienen nada delicado; el panel `/admin/` se protege con su propia guardia).
+
 ## Probar en local
 
 Solo hace falta Python 3.9 o superior, sin dependencias:

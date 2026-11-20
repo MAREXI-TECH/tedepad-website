@@ -7,6 +7,7 @@ ver las defensas en el README, «Panel de noticias».
 
     python build.py          → genera _site/
 """
+import base64
 import hashlib
 import html
 import json
@@ -15,6 +16,7 @@ import re
 import shutil
 import sys
 from datetime import date
+from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, '_site')
@@ -615,6 +617,160 @@ def write(rel, content):
 WRITTEN = set()
 
 
+# ------------------------------------------------------------------ política de seguridad (CSP) de las páginas públicas
+# Cada página publicada (menos /admin/, que tiene la suya) lleva una CSP que solo deja ejecutar scripts de tedepad.com y
+# los scripts en línea de esta lista, identificados por su huella SHA-256. Si una página tiene un script en línea que no
+# está aquí, la publicación SE PARA (no se añade solo).
+#
+# >>> SI SE CAMBIA UNO DE ESTOS SCRIPTS (o se añade uno nuevo), HAY QUE ACTUALIZAR SU HUELLA AQUÍ: <<<
+#     1. python build.py  → el error dice la huella nueva y la página («script en línea no permitido … sha256-…»).
+#     2. Comprobar que el cambio es legítimo, cambiar la huella en esta lista y volver a generar.
+#     3. Es un cambio de código: commit + `bash tools/huella_codigo.sh --update` (ver README, «Política de seguridad»).
+CSP_SCRIPTS = {
+    'sha256-8OLQNo+0ITeLpdX9wZWkhYocwJ0tAfmxepRfFv2UEyI=': 'formulario de contacto (pie de todas las páginas: plantillas/pie-*.html)',
+    'sha256-GKnTzhpdeBdn4djT++K/ZVvrjXsF/DsWTs/jEML+YEk=': 'redirección de direcciones antiguas (404.html)',
+}
+# Las páginas públicas no cargan ningún archivo .js: script-src solo admite las huellas de la lista (ni siquiera 'self',
+# para que no se puedan reutilizar los scripts del panel /admin/ desde una página pública).
+CSP_BASE = ("default-src 'self'; script-src {scripts}; style-src 'self' 'unsafe-inline'; img-src 'self' data:; "
+            "media-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; "
+            "form-action 'none'; frame-src 'none'; upgrade-insecure-requests")
+CSP_META = ('<meta http-equiv="Content-Security-Policy" content="'
+            + CSP_BASE.format(scripts=' '.join(f"'{h}'" for h in CSP_SCRIPTS)) + '">')
+JS_TYPES = {'', 'text/javascript', 'application/javascript', 'module', 'text/ecmascript', 'application/ecmascript'}
+URL_ATTRS = {'src', 'href', 'action', 'formaction', 'poster', 'data', 'srcset', 'background', 'xlink:href'}
+# Archivos que un navegador podría ejecutar como página o script: fuera de /admin/ no se publican sin revisar.
+RISKY_FILES = ('.htm', '.xhtml', '.shtml', '.svg', '.js', '.mjs', '.xml', '.xsl', '.xslt')
+
+
+def is_own_url(u):
+    """True si la dirección es de la propia web (relativa o https://tedepad.com/…)."""
+    u = u.strip()
+    if not re.match(r'(?:[a-z][a-z0-9+.-]*:|//)', u, re.I):
+        return True                                    # relativa: /img/x.png, ../x, #ancla
+    return bool(re.match(r'(?:https?:)?//(?:www\.)?tedepad\.com(?:[/:?#]|$)', u, re.I))
+
+
+class CspCheck(HTMLParser):
+    """Recorre una página como lo haría el navegador: scripts, atributos peligrosos y recursos de fuera."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=False)
+        self.problems, self.order, self.script, self.in_script = [], [], None, False
+
+    def handle_starttag(self, tag, attrs):
+        self.order.append(('start', tag, dict(attrs)))
+        a = {k.lower(): (v or '') for k, v in attrs}
+        for k, v in a.items():
+            if k.startswith('on'):
+                self.problems.append(f'atributo de evento «{k}=» (la CSP lo bloquea)')
+            if k in URL_ATTRS and re.match(r'[\s\x00-\x20]*(?:java|vb)script\s*:', v, re.I):
+                self.problems.append(f'enlace «{k}=javascript:…» (la CSP lo bloquea)')
+        if tag == 'script':
+            typ = a.get('type', '').strip().lower()
+            if 'src' in a:
+                self.problems.append(f'carga un archivo de script ({a["src"][:80]}): las páginas públicas no admiten '
+                                     f'scripts externos; si hace falta, revisar la CSP de build.py')
+            self.in_script, self.script = True, ([] if typ in JS_TYPES and 'src' not in a else None)
+        elif tag in ('iframe', 'frame', 'object', 'embed', 'base', 'applet'):
+            self.problems.append(f'etiqueta <{tag}> (la CSP la bloquea o no se permite)')
+        elif tag == 'form' and a.get('action', '').strip():
+            self.problems.append(f'formulario con action={a["action"][:60]} (la CSP no deja enviar formularios)')
+        elif tag == 'meta' and a.get('http-equiv', '').strip().lower() == 'content-security-policy':
+            self.order[-1] = ('csp', tag, a)
+        # <link> solo carga algo si es hoja de estilos, icono, precarga o manifiesto (canonical/alternate son solo enlaces)
+        loads = tag != 'link' or re.search(r'\b(stylesheet|icon|preload|modulepreload|prefetch|manifest)\b',
+                                           a.get('rel', ''), re.I)
+        for k in ('src', 'poster', 'srcset') + (('href',) if tag == 'link' else ()):
+            if k not in a or not loads:
+                continue
+            urls = [x.strip().split()[0] for x in a[k].split(',') if x.strip()] if k == 'srcset' else [a[k]]
+            for u in urls:
+                if not is_own_url(u) and not (tag == 'img' and u.strip().lower().startswith('data:')):
+                    self.problems.append(f'<{tag} {k}> de fuera de tedepad.com ({u[:80]}): la CSP lo bloquearía')
+
+    handle_startendtag = handle_starttag
+
+    def handle_endtag(self, tag):
+        self.order.append(('end', tag, {}))
+        if tag == 'script' and self.in_script:
+            if self.script is not None:
+                code = ''.join(self.script)
+                h = 'sha256-' + base64.b64encode(hashlib.sha256(code.encode('utf-8')).digest()).decode()
+                if h not in CSP_SCRIPTS:
+                    self.problems.append(f'script en línea no permitido ({h}). Si el cambio es legítimo, añadir esa '
+                                         f'huella a CSP_SCRIPTS en build.py (ver README, «Política de seguridad»)')
+            self.in_script, self.script = False, None
+
+    def handle_data(self, data):
+        if self.in_script and self.script is not None:
+            self.script.append(data)
+
+    def close(self):
+        super().close()
+        if self.in_script:
+            self.problems.append('<script> sin cerrar')
+
+
+def csp_well_placed(s):
+    """La CSP tiene que ser una etiqueta real dentro de <head> y llegar antes que cualquier script, estilo o enlace."""
+    c = CspCheck()
+    c.feed(s)
+    c.close()
+    seen_head = False
+    for kind, tag, _ in c.order:
+        if kind == 'start' and tag == 'head':
+            seen_head = True
+        elif kind == 'csp':
+            return seen_head
+        elif tag in ('script', 'style', 'link', 'body') or (kind == 'end' and tag == 'head'):
+            return False
+    return False
+
+
+def apply_csp():
+    """Añade la CSP a todas las páginas de _site/ (menos /admin/) y comprueba lo que contienen."""
+    n = 0
+    for d, dirs, files in os.walk(OUT):
+        rel_d = os.path.relpath(d, OUT).replace(os.sep, '/')
+        if rel_d == 'admin' or rel_d.startswith('admin/'):
+            dirs[:] = []
+            continue
+        for f in files:
+            p = os.path.join(d, f)
+            rel = os.path.relpath(p, OUT).replace(os.sep, '/')
+            low = f.lower()
+            if low.endswith(RISKY_FILES) and rel not in ('sitemap.xml',):
+                warn(f'{rel}: este tipo de archivo puede ejecutar código y no lleva la CSP; no se publica sin revisarlo')
+                continue
+            if not low.endswith('.html'):
+                continue
+            try:
+                s = open(p, encoding='utf-8').read()
+            except UnicodeDecodeError:
+                warn(f'{rel}: no es UTF-8 válido; no se le puede poner la CSP')
+                continue
+            c = CspCheck()
+            c.feed(s)
+            c.close()
+            if any(kind == 'csp' for kind, _, _ in c.order):
+                warn(f'{rel} ya trae su propia CSP: revisarla (la de build.py no se añade dos veces)')
+                continue
+            for msg in dict.fromkeys(c.problems):
+                warn(f'{rel}: {msg}')
+            head = re.search(r'<head\b[^>]*>', s, re.I)
+            if not head:
+                warn(f'{rel}: no tiene <head>; no se le puede poner la CSP')
+                continue
+            s = s[:head.end()] + '\n' + CSP_META + s[head.end():]
+            if not csp_well_placed(s):
+                warn(f'{rel}: la CSP no queda al principio de <head> (antes de scripts, estilos y enlaces); revisar la página')
+                continue
+            open(p, 'w', encoding='utf-8', newline='\n').write(s)
+            n += 1
+    return n
+
+
 def build():
     copy_site()
     news = load_news()
@@ -639,7 +795,9 @@ def build():
                  + ''.join(f'  <url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod></url>\n' for u in urls) + '</urlset>\n')
     with open(os.path.join(OUT, 'robots.txt'), 'w', encoding='utf-8', newline='\n') as fh:
         fh.write(f'User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: {SITE}/sitemap.xml\n')
-    print(f'OK: {len(news)} noticias ({sum(1 for n in news if n["en"])} con inglés), {len(urls)} páginas en {OUT}')
+    con_csp = apply_csp()
+    print(f'OK: {len(news)} noticias ({sum(1 for n in news if n["en"])} con inglés), {len(urls)} páginas en {OUT}; '
+          f'CSP en {con_csp} archivos HTML')
     if PROBLEMS:
         for msg in PROBLEMS:
             print(f'::error::{msg}')
