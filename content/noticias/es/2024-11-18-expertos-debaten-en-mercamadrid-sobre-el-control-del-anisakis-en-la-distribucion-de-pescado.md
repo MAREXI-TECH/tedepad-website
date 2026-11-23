@@ -4,11 +4,10 @@ date: "2024-11-18"
 image: "/img/n-1719333546552.webp"
 image_width: "1200"
 image_height: "704"
-summary: "Imagen obtenida del LinkedIn de Proyecto GESTPAR. Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territorio nacional, lo que hace imprescindible la actualización…"
-description: "Imagen obtenida del LinkedIn de Proyecto GESTPAR. Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territori"
+summary: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territorio nacional, lo que hace imprescindible la actualización…"
+description: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territori"
 translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado"
 ---
-<p><em>Imagen obtenida del LinkedIn de Proyecto GESTPAR.</em></p>
 
 
 
@@ -53,3 +52,5 @@ translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del
 
 
 <p>La jornada concluyó con la promesa de seguir fortaleciendo la colaboración entre administraciones, científicos y empresas del sector para garantizar <strong>un control más riguroso y eficiente del anisakis en la cadena de distribución alimentaria</strong>.</p>
+
+<p><em>Imagen: equipo de Seguridad Alimentaria de Madrid Salud en Mercamadrid («Barbero visita Mercamadrid con los inspectores municipales (03).jpg»), de Diario de Madrid, en <a href="https://commons.wikimedia.org/wiki/File:Barbero_visita_Mercamadrid_con_los_inspectores_municipales_(03).jpg">Wikimedia Commons</a>, con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a> (recortada).</em></p>
