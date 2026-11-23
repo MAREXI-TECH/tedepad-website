@@ -142,7 +142,7 @@ LEGACY_NEWS = {
     'es/2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos.md':
         'c93853ce2bf128aca74e876da96b0cbc38df7e0d9e22595ebd732ba5655e6e41',
     'es/2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado.md':
-        '347ed085ec69dcebdc9d6d353f59d53e74abdccfac180a3f01f3cb0bdfbe255c',
+        'ea9a88da5d8a196f3814d17a996fdaf32e24786e85592284809606dfa146604e',
     'es/2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-de-colon-segun-medicos-espanoles.md':
         '76be458d9cf0e50f5b24c3a8b973ec6c353b70fd93af621551d615e0022b64d1',
     'es/2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-con-un-dispositivo-pionero-validado-por-el-csic.md':
@@ -154,7 +154,7 @@ LEGACY_NEWS = {
     'es/2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-tratamiento.md':
         'bac02947d8d8aee08ed9e108a6ed0f4eee2e07b7ac6c6f09acb131fe06990184',
     'es/2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida.md':
-        'feead9ffa0dcd8fff0c8d1cabd1f3bafd6c2ae63b5d430d76e9f30bb7b186213',
+        '3e5bb0306c19dfd6c623f40cc24a4c845c8242152f1428ad934badcea8bb1294',
     'es/2025-04-21-cinco-especies-de-pescado-con-mas-riesgo-de-anisakis.md':
         'aec77f2d9d031b870483aed23e2bcacb8ae3a328e43bf14f173e168b620f2cd0',
     'es/2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez.md':
@@ -164,7 +164,7 @@ LEGACY_NEWS = {
     'en/2024-11-04-anisakis-on-our-plates-how-to-reduce-risks-and-protect-the-oceans.md':
         'c32288e898d4d2812c47cedaf723e4475fefb5b914dafe9634dcb64a4aa62a56',
     'en/2024-11-18-experts-discuss-anisakis-control-in-fish-distribution-at-mercamadrid.md':
-        '7c8f2a4593414039a338c82c853cd6c6ac70e258975dda7d5097b7775be4d762',
+        'e20ea83d7ad0d4cf91a0f380304451e0c4480f0d211fe8ddc7e63420e3dec2ac',
     'en/2024-12-09-anisakis-may-be-linked-to-colon-cancer-spanish-doctors-say.md':
         'ec9916e0e5f4d297ec084ac694a140bf5768c7536ac03dbbc511ed00f2a8e9da',
     'en/2024-12-23-spain-marks-a-milestone-in-the-fight-against-anisakis-with-a-pioneering-device-validated-by-csic.md':
@@ -176,7 +176,7 @@ LEGACY_NEWS = {
     'en/2025-04-14-how-do-i-know-if-i-have-anisakis-causes-symptoms-and-treatment.md':
         '4fa3a462a133b42110d96d8f47d7d1f75ec0cd7e8ecf27fb9076fe56832cd4fa',
     'en/2025-04-16-food-safety-in-school-canteens-what-can-we-learn-from-the-case-of-lleida.md':
-        'd3efa52d0c58f74e3a52e4b374c935e7135756e82ed6385308027b67bec0a3b4',
+        '9a40f6a245f4fbb01c5ab28a9754386dd067408ed534f188d8b73e9d6bc6cc94',
     'en/2025-04-21-these-are-the-five-fish-species-with-the-highest-risk-of-containing-anisakis.md':
         '1628aaacdeb196d2a0f8621da70f38c3bee0522f191ad3cde9633877b10259b2',
     'en/2025-04-25-everything-you-need-to-know-about-anisakis-according-to-dr-lourdes-perez-gonzalez.md':

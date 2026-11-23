@@ -4,11 +4,10 @@ date: "2024-11-18"
 image: "/img/n-1719333546552.webp"
 image_width: "1200"
 image_height: "704"
-summary: "Image obtained from the GESTPAR Project LinkedIn. Wholesale markets play an essential role in the distribution of food throughout the national territory, which makes it essential to constantly update the personnel in…"
-description: "Image obtained from the GESTPAR Project LinkedIn. Wholesale markets play an essential role in the distribution of food throughout the national territory, w"
+summary: "Wholesale markets play an essential role in the distribution of food throughout the national territory, which makes it essential to constantly update the personnel in…"
+description: "Wholesale markets play an essential role in the distribution of food throughout the national territory, w"
 translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado"
 ---
-<p><em>Image obtained from the GESTPAR Project LinkedIn.</em></p>
 
 <p>Wholesale markets play an essential role in the distribution of food throughout the national territory, which makes it essential to constantly update the personnel in charge of the inspection and official control of foodstuffs. With this objective in mind, on <strong>June 20 and 21, 2024</strong>, the Assembly Hall of the <strong>Mercamadrid</strong> Administrative Center hosted a technical conference aimed at professionals from the administrations and workers involved in the distribution and marketing chain of food products. </p>
 
@@ -31,3 +30,5 @@ translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del
 <p><strong>GESTPAR</strong> 's commitment to research and innovation will make it possible to advance in the protection of public health and strengthen consumer confidence in fish products.</p>
 
 <p>The conference concluded with the promise to continue strengthening collaboration between administrations, scientists and companies in the sector to ensure <strong>a more rigorous and efficient control of anisakis in the food distribution chain.</strong></p>
+
+<p><em>Image: Madrid Salud food safety team at Mercamadrid (“Barbero visita Mercamadrid con los inspectores municipales (03).jpg”), by Diario de Madrid, on <a href="https://commons.wikimedia.org/wiki/File:Barbero_visita_Mercamadrid_con_los_inspectores_municipales_(03).jpg">Wikimedia Commons</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (cropped).</em></p>
