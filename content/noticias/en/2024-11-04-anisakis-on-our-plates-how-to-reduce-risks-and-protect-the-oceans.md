@@ -1,9 +1,11 @@
 ---
 title: "Anisakis on our plates: how to reduce risks and protect the oceans"
 date: "2024-11-04"
-image: "/img/n-monktail-scaled-1.webp"
+image: "/img/n-bering-sea-sunset.webp"
 image_width: "1200"
 image_height: "680"
+image_credit: "Image: Allan Shimada, NOAA (public domain)"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Bering_Sea_Sunset_In_Alaska.jpg"
 summary: "Anisakis, a parasite that is increasingly present in fish from our seas, continues to generate concern among consumers and raises questions about food safety in restaurants and homes."
 description: "Anisakis continues to generate concern among consumers and raises questions about food safety in restaurants and homes."
 translationKey: "2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos"
