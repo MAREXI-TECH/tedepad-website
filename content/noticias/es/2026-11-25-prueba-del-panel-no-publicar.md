@@ -5,4 +5,4 @@ date: "2026-11-25"
 draft: true
 ---
 
-Noticia de prueba.
+Noticia de prueba, editada.
