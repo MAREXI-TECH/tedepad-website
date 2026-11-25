@@ -1,14 +1,14 @@
 ---
-title: "El Anisakis podría estar relacionado con el cáncer de colon, según médicos españoles"
+title: "El anisakis podría estar relacionado con el cáncer de colon, según médicos españoles"
 date: "2024-12-09"
 image: "/img/n-freepik-expand-78956.webp"
 image_width: "1200"
-image_height: "686"
-summary: "Un reciente estudio realizado por médicos en España ha encendido las alarmas sobre un posible vínculo entre el anisakis, un parásito común en pescados y mariscos crudos, y el desarrollo de cáncer de colon. Aunque los…"
-description: "Un reciente estudio realizado por médicos en España ha encendido las alarmas sobre un posible vínculo entre el anisakis, un parásito común en pescados y ma"
+image_height: "680"
+summary: "Un reciente estudio realizado por médicos en España ha encendido las alarmas sobre un posible vínculo entre el anisakis, un parásito común en pescados y cefalópodos, y el desarrollo de cáncer de colon. Aunque los hallazgos son preliminares, abren una nueva línea de investigación."
+description: "Un estudio de médicos españoles apunta a un posible vínculo entre el anisakis y el cáncer de colon, aunque los hallazgos son preliminares."
 translationKey: "2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-de-colon-segun-medicos-espanoles"
 ---
-<p>Un reciente estudio realizado por médicos en España ha encendido las alarmas sobre un posible vínculo entre el anisakis, un parásito común en pescados y mariscos crudos, y el desarrollo de cáncer de colon. Aunque los hallazgos son preliminares, esta conexión abre una nueva línea de investigación sobre los riesgos asociados al consumo de alimentos contaminados por este parásito.</p>
+<p>Un reciente estudio realizado por médicos en España ha encendido las alarmas sobre un posible vínculo entre el anisakis, un parásito común en pescados y cefalópodos, y el desarrollo de cáncer de colon. Aunque los hallazgos son preliminares, esta conexión abre una nueva línea de investigación sobre los riesgos asociados al consumo de alimentos contaminados por este parásito.</p>
 
 
 
@@ -16,7 +16,7 @@ translationKey: "2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-d
 
 
 
-<p>El anisakis es un parásito que se encuentra en pescados y mariscos, y que puede provocar anisakiasis, una enfermedad que genera síntomas como dolor abdominal, náuseas y vómitos tras el consumo de alimentos infectados. Sin embargo, el nuevo estudio sugiere que las proteínas liberadas por el anisakis al invadir el cuerpo humano podrían desencadenar una inflamación crónica en el intestino, un factor de riesgo conocido en el desarrollo del cáncer de colon.</p>
+<p>El anisakis es un parásito que se encuentra en pescados y cefalópodos, y que puede provocar anisakiasis, una enfermedad que genera síntomas como dolor abdominal, náuseas y vómitos tras el consumo de alimentos infectados. Sin embargo, el nuevo estudio sugiere que las proteínas liberadas por el anisakis al invadir el cuerpo humano podrían desencadenar una inflamación crónica en el intestino, un factor de riesgo conocido en el desarrollo del cáncer de colon.</p>
 
 
 
@@ -24,7 +24,7 @@ translationKey: "2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-d
 
 
 
-<p>Los expertos advierten que esta inflamación intestinal, mantenida a lo largo del tiempo, podría estar detrás de algunos casos de cáncer de colon. "Aunque aún no se ha establecido una relación causal directa, los datos iniciales son preocupantes y merecen atención", señalaron los investigadores.</p>
+<p>Los expertos advierten que esta inflamación intestinal, mantenida a lo largo del tiempo, podría estar detrás de algunos casos de cáncer de colon. Aunque aún no se ha establecido una relación causal directa, los investigadores señalan que sus resultados sugieren una asociación que merece atención.</p>
 
 
 

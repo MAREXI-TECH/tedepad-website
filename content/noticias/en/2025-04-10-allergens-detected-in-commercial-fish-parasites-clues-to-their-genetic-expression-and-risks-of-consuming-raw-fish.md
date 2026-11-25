@@ -3,14 +3,14 @@ title: "Allergens detected in commercial fish parasites: clues to their genetic 
 date: "2025-04-10"
 image: "/img/n-delicious-fish-frame-with-lemon-slices.webp"
 image_width: "1200"
-image_height: "800"
-summary: "A recent study led by researcher Luisana Lugo, in collaboration with the University of Chile and the Institute of Nutrition and Food Technology (INTA), has identified the genetic expression of allergens in the parasite…"
-description: "A recent study led by researcher Luisana Lugo, in collaboration with the University of Chile and the Institute of Nutrition and Food Technology (INTA), has"
+image_height: "680"
+summary: "A recent study led by researcher Luisana Lugo at the Universidad Católica de la Santísima Concepción (UCSC, Chile) has identified the genetic expression of allergens in the parasite Anisakis pegreffii, present in…"
+description: "A recent study led by researcher Luisana Lugo at the Universidad Católica de la Santísima Concepción (UCSC, Chile) has identified the genetic expression of"
 translationKey: "2025-04-10-detectan-alergenos-en-parasitos-de-peces-comerciales-claves-sobre-su-expresion-genetica-y-riesgos-al-consumir-pescado-crudo"
 ---
-<p>A recent study led by researcher Luisana Lugo, in collaboration with the University of Chile and the Institute of Nutrition and Food Technology (INTA), has identified the <strong>genetic expression of allergens</strong> in the parasite <em>Anisakis pegreffii</em>, present in fish of commercial interest. The finding, published in <em>Scientific Reports</em>, represents an important advance in the understanding of the risks that these parasites pose to human health, especially when fish are consumed raw or undercooked.</p>
+<p>A recent study led by researcher Luisana Lugo, at the Universidad Católica de la Santísima Concepción (UCSC, Chile), has identified the <strong>genetic expression of allergens</strong> in the parasite <em>Anisakis pegreffii</em>, present in fish of commercial interest. The finding represents an important advance in the understanding of the risks that these parasites pose to human health, especially when fish are consumed raw or undercooked.</p>
 
-<p>The study focused on characterizing <strong>genes encoding allergenic proteins</strong> at different stages of the parasite's life cycle. This made it possible to identify which of these proteins are more highly expressed in larvae, which is especially relevant, since these are the proteins normally found in fish that reach the consumer. Fourteen genes encoding 11 different allergens were detected, some of which remain active even after thermal or freezing processes are applied.</p>
+<p>The study focused on characterizing <strong>genes encoding allergenic proteins</strong> at different stages of the parasite's life cycle. This made it possible to identify which of these proteins are more highly expressed in larvae, which is especially relevant, since these are the proteins normally found in fish that reach the consumer. Fourteen allergens have been described in this species; the study analysed the expression of two of them after different treatments (cooking, refrigeration and lemon juice).</p>
 
 <p>One of the most significant findings is that <strong>the way fish is prepared directly influences the expression of these allergens</strong>. Culinary practices such as sushi, ceviche or carpaccios may not completely eliminate the risks, representing a growing public health problem, especially in countries where consumption of raw fish has increased considerably.</p>
 

@@ -3,7 +3,7 @@ title: "How do I know if I have anisakis? Causes, symptoms and treatment"
 date: "2025-04-14"
 image: "/img/n-18659.webp"
 image_width: "1200"
-image_height: "800"
+image_height: "680"
 summary: "Anisakis is a parasite that can be found in some fish and cephalopods, and its consumption without proper preparation can cause health problems. In Spain, where fish consumption is common, it is important to know how to…"
 description: "Anisakis is a parasite that can be found in some fish and cephalopods, and its consumption without proper preparation can cause health problems. In Spain, "
 translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-tratamiento"
@@ -20,7 +20,7 @@ translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-trata
 
 <p><strong>Symptoms of anisakiasis</strong></p>
 
-<p>Symptoms usually appear between 4 and 70 hours after ingestion and include.</p>
+<p>Symptoms usually appear between 4 and 70 hours after ingestion and include:</p>
 
 <ul>
 <li>Severe, sharp abdominal pain</li>
@@ -42,7 +42,7 @@ translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-trata
 
 <p><strong>Diagnosis and treatment</strong></p>
 
-<p>If anisakiasis is suspected, it is essential to see a doctor. Diagnosis may include. </p>
+<p>If anisakiasis is suspected, it is essential to see a doctor. Diagnosis may include:</p>
 
 <ul>
 <li>Blood tests to detect specific antibodies.</li>

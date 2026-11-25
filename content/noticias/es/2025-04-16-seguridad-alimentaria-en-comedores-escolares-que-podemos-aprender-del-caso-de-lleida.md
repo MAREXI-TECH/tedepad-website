@@ -2,8 +2,8 @@
 title: "Seguridad alimentaria en comedores escolares: ¿qué podemos aprender del caso de Lleida?"
 date: "2025-04-16"
 image: "/img/n-679b01a83cee3-r-d-616-56-1.webp"
-image_width: "990"
-image_height: "660"
+image_width: "1200"
+image_height: "680"
 summary: "La reciente aparición de gusanos en raciones del comedor escolar del colegio Lestonnac de Lleida ha generado preocupación entre las familias y ha puesto en evidencia la importancia de mantener altos estándares de…"
 description: "La reciente aparición de gusanos en raciones del comedor escolar del colegio Lestonnac de Lleida ha generado preocupación entre las familias y ha puesto en"
 translationKey: "2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida"
@@ -16,7 +16,7 @@ translationKey: "2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-pod
 
 
 
-<p>En enero de 2025, se detectaron pequeños gusanos en algunas raciones de lentejas, arroz y verduras servidas en el comedor del colegio Lestonnac. Este hallazgo ocurrió poco más de dos meses después de que se encontraran gusanos, posiblemente anisakis, en filetes de pescado fresco en el mismo centro. Aunque las autoridades sanitarias no identificaron riesgos graves para la salud en ninguno de los casos, la repetición de estos incidentes ha generado inquietud entre las familias y ha llevado a la dirección del colegio a considerar un cambio en la empresa encargada del servicio de comedor.</p>
+<p>En enero de 2025, se detectaron pequeños gusanos en algunas raciones de lentejas con arroz y verduras servidas en el comedor del colegio Lestonnac. Este hallazgo ocurrió poco más de dos meses después de que se encontraran gusanos, posiblemente anisakis, en filetes de pescado fresco en el mismo centro. Aunque las autoridades sanitarias descartaron riesgos para la salud de los escolares en el caso de enero, la repetición de estos incidentes ha generado inquietud entre las familias y ha llevado a la dirección del colegio a considerar un cambio en la empresa encargada del servicio de comedor.</p>
 
 
 

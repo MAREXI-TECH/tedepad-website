@@ -3,7 +3,7 @@ title: "¿Cómo saber si tengo anisakis? Causas, síntomas y tratamiento"
 date: "2025-04-14"
 image: "/img/n-18659.webp"
 image_width: "1200"
-image_height: "800"
+image_height: "680"
 summary: "El anisakis es un parásito que puede encontrarse en algunos pescados y cefalópodos, y su consumo sin la debida preparación puede provocar problemas de salud. En España, donde el consumo de pescado es habitual, es…"
 description: "El anisakis es un parásito que puede encontrarse en algunos pescados y cefalópodos, y su consumo sin la debida preparación puede provocar problemas de salu"
 translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-tratamiento"
@@ -24,7 +24,7 @@ translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-trata
 
 
 
-<p>La principal vía de infección es la ingesta de pescado crudo o insuficientemente cocinado que contiene larvas de anisakis. Platos como sushi, ceviche, boquerones en vinagre o pescados marinados son comunes en la dieta española y pueden ser fuentes de infección si no se han congelado adecuadamente antes de su preparación.​</p>
+<p>La principal vía de infección es la ingesta de pescado crudo o insuficientemente cocinado que contiene larvas de anisakis. Platos como sushi, ceviche, boquerones en vinagre o pescados marinados son comunes en la dieta española y pueden ser fuentes de infección si no se han congelado adecuadamente antes de su preparación.</p>
 
 
 
@@ -32,7 +32,7 @@ translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-trata
 
 
 
-<p>Los síntomas suelen aparecer entre 4 y 70 horas después de la ingesta e incluyen:​</p>
+<p>Los síntomas suelen aparecer entre 4 y 70 horas después de la ingesta e incluyen:</p>
 
 
 
@@ -41,20 +41,20 @@ translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-trata
 
 
 
-<li>Náuseas y vómitos.​</li>
+<li>Náuseas y vómitos.</li>
 
 
 
-<li>Diarrea y fiebre.​</li>
+<li>Diarrea y fiebre.</li>
 
 
 
-<li>Reacciones alérgicas como urticaria, hinchazón del rostro o, en casos graves, anafilaxia.​</li>
+<li>Reacciones alérgicas como urticaria, hinchazón del rostro o, en casos graves, anafilaxia.</li>
 </ul>
 
 
 
-<p>Es importante destacar que no todas las personas que ingieren anisakis presentan síntomas; algunas pueden ser asintomáticas o experimentar molestias leves.​</p>
+<p>Es importante destacar que no todas las personas que ingieren anisakis presentan síntomas; algunas pueden ser asintomáticas o experimentar molestias leves.</p>
 
 
 
@@ -62,25 +62,25 @@ translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-trata
 
 
 
-<p>Si se sospecha de anisakiasis, es fundamental acudir al médico. El diagnóstico puede incluir:​</p>
+<p>Si se sospecha de anisakiasis, es fundamental acudir al médico. El diagnóstico puede incluir:</p>
 
 
 
 <ul>
-<li>Análisis de sangre para detectar anticuerpos específicos.​</li>
+<li>Análisis de sangre para detectar anticuerpos específicos.</li>
 
 
 
-<li>Pruebas cutáneas como el Prick-Test para identificar reacciones alérgicas.​</li>
+<li>Pruebas cutáneas como el Prick-Test para identificar reacciones alérgicas.</li>
 
 
 
-<li>Endoscopia para localizar y extraer las larvas si están presentes en el tracto digestivo.​</li>
+<li>Endoscopia para localizar y extraer las larvas si están presentes en el tracto digestivo.</li>
 </ul>
 
 
 
-<p>El tratamiento dependerá de la gravedad de los síntomas. En casos leves, los síntomas pueden resolverse sin intervención médica, mientras que en situaciones más graves puede ser necesaria la extracción de las larvas y la administración de medicamentos para controlar las reacciones alérgicas.​</p>
+<p>El tratamiento dependerá de la gravedad de los síntomas. En casos leves, los síntomas pueden resolverse sin intervención médica, mientras que en situaciones más graves puede ser necesaria la extracción de las larvas y la administración de medicamentos para controlar las reacciones alérgicas.</p>
 
 
 
@@ -93,15 +93,15 @@ translationKey: "2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-trata
 
 
 <ul>
-<li>Cocinar el pescado a temperaturas superiores a 60 °C durante al menos un minuto.​</li>
+<li>Cocinar el pescado a temperaturas superiores a 60 °C durante al menos un minuto.</li>
 
 
 
-<li>Congelar el pescado a -20 °C durante un mínimo de 5 días si se va a consumir crudo o poco cocinado.​</li>
+<li>Congelar el pescado a -20 °C durante un mínimo de 5 días si se va a consumir crudo o poco cocinado.</li>
 
 
 
-<li>Comprar pescado limpio y sin vísceras, ya que las larvas suelen encontrarse en estas partes.​</li>
+<li>Comprar pescado limpio y sin vísceras, ya que las larvas suelen encontrarse en estas partes.</li>
 </ul>
 
 

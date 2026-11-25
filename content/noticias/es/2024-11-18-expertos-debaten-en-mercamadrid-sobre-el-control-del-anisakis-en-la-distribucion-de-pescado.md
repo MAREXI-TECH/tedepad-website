@@ -3,9 +3,9 @@ title: "Expertos debaten en Mercamadrid sobre el control del anisakis en la dist
 date: "2024-11-18"
 image: "/img/n-1719333546552.webp"
 image_width: "1200"
-image_height: "704"
-summary: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territorio nacional, lo que hace imprescindible la actualización…"
-description: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territori"
+image_height: "680"
+summary: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territorio nacional, lo que hace imprescindible la actualización constante del personal encargado de la inspección y control oficial de los alimentos."
+description: "Expertos de la administración, la ciencia y el sector pesquero debaten en Mercamadrid sobre el control del anisakis en la distribución de pescado."
 translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado"
 ---
 
@@ -35,7 +35,7 @@ translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del
 
 
 
-<p>Durante las jornadas también se presentó el <strong>proyecto GESTPAR</strong>, una iniciativa clave para el desarrollo de estrategias de <strong>gestión y control del anisakis en la industria pesquera</strong>. Este proyecto, impulsado por diversas instituciones científicas y del sector pesquero, busca mejorar la seguridad alimentaria mediante la implementación de medidas eficaces para <strong>reducir la presencia de anisakis en los productos del mar</strong> antes de su llegada a los mercados y consumidores.</p>
+<p>Durante las jornadas también se presentó el <strong>proyecto GESTPAR</strong>, una iniciativa clave para el desarrollo de estrategias de <strong>gestión y control del anisakis en la industria pesquera</strong>. Este proyecto, encargado por la Secretaría General de Pesca del Ministerio de Agricultura, Pesca y Alimentación al Instituto de Investigaciones Marinas (CSIC), busca mejorar la seguridad alimentaria mediante la implementación de medidas eficaces para <strong>reducir la presencia de anisakis en los productos del mar</strong> antes de su llegada a los mercados y consumidores.</p>
 
 
 

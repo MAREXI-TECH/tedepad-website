@@ -3,12 +3,12 @@ title: "Retiran del mercado este pescado por contaminación con anisakis"
 date: "2025-01-13"
 image: "/img/n-freepik-expand-31865.webp"
 image_width: "1200"
-image_height: "686"
-summary: "El Sistema de Alerta Rápida para Alimentos y Piensos de la Unión Europea (RASFF) ha emitido una alerta grave tras detectar la presencia de anisakis en unas huevas de merluza procedentes de Marruecos y destinadas al…"
-description: "El Sistema de Alerta Rápida para Alimentos y Piensos de la Unión Europea (RASFF) ha emitido una alerta grave tras detectar la presencia de anisakis en unas"
+image_height: "680"
+summary: "El Sistema de Alerta Rápida para Alimentos y Piensos de la Unión Europea (RASFF) emitió en mayo de 2024 una alerta grave tras detectar la presencia de anisakis en unas huevas de merluza procedentes de Marruecos y destinadas al mercado español."
+description: "El RASFF emitió una alerta grave por anisakis en huevas de merluza procedentes de Marruecos y destinadas al mercado español."
 translationKey: "2025-01-13-retiran-del-mercado-espanol-huevas-de-merluza-procedentes-de-marruecos-por-contaminacion-con-anisakis"
 ---
-<p>El Sistema de Alerta Rápida para Alimentos y Piensos de la Unión Europea (RASFF) ha emitido una alerta grave tras detectar la presencia de anisakis en unas huevas de merluza procedentes de Marruecos y destinadas al mercado español. El hallazgo tuvo lugar durante un control fronterizo, donde las autoridades españolas detuvieron el envío para evitar su distribución.</p>
+<p>El Sistema de Alerta Rápida para Alimentos y Piensos de la Unión Europea (RASFF) emitió en mayo de 2024 una alerta grave tras detectar la presencia de anisakis en unas huevas de merluza procedentes de Marruecos y destinadas al mercado español. El hallazgo tuvo lugar durante un control fronterizo, donde las autoridades españolas detuvieron el envío para evitar su distribución.</p>
 
 
 

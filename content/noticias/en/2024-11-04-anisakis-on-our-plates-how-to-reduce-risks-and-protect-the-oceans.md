@@ -3,9 +3,9 @@ title: "Anisakis on our plates: how to reduce risks and protect the oceans"
 date: "2024-11-04"
 image: "/img/n-monktail-scaled-1.webp"
 image_width: "1200"
-image_height: "699"
-summary: "Anisakis, a parasite that is increasingly present in fish from our seas, continues to generate concern among consumers and raises questions about food safety in restaurants and homes. Recently, a diner recounted his…"
-description: "Anisakis, a parasite that is increasingly present in fish from our seas, continues to generate concern among consumers and raises questions about food safe"
+image_height: "680"
+summary: "Anisakis, a parasite that is increasingly present in fish from our seas, continues to generate concern among consumers and raises questions about food safety in restaurants and homes."
+description: "Anisakis continues to generate concern among consumers and raises questions about food safety in restaurants and homes."
 translationKey: "2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos"
 ---
 <p>Anisakis, a parasite that is increasingly present in fish from our seas, continues to generate concern among consumers and raises questions about food safety in restaurants and homes. Recently, a diner recounted his experience in a restaurant, where a baked monkfish arrived at the table accompanied by this nematode, visibly present in the dish.</p>
@@ -17,16 +17,16 @@ translationKey: "2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-
 <p>The Spanish Agency for Food Safety and Nutrition (AESAN) assures that consuming fish is safe and healthy, as long as the appropriate recommendations are followed:</p>
 
 <ul>
-<li>Freeze fish for at least 5 days at -20 °C in 3-star freezers or higher.</li>
+<li>Freeze fish at -15 °C or below for at least 4 days (counting 5 days from when it goes into the freezer).</li>
 
 
 
-<li>Cook the fish at an internal temperature of 60 °C for at least 1 minute.</li>
+<li>Cook the fish until the whole piece reaches 60 °C for at least 1 minute.</li>
 </ul>
 
 <p>However, the increasing incidence of anisakiasis, a disease caused by the ingestion of live anisakis, is evidence that the parasite remains a global problem. In Spain, fish passing through the sea (even river species) are susceptible to contamination, and chefs should carefully check the viscera and loins to eliminate possible larvae.</p>
 
-<p><strong>A problem of trust and manipulation</strong></p>
+<p><strong>A problem of trust and handling</strong></p>
 
 <p>Anisakis poses not only a health challenge, but also a challenge to consumer confidence. Experiences such as that of the contaminated monkfish reveal the importance of proper fish handling and, above all, of clear and responsible communication by restaurants.</p>
 

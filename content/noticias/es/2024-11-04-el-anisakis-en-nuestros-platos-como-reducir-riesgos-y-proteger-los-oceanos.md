@@ -3,9 +3,9 @@ title: "El anisakis en nuestros platos: cómo reducir riesgos y proteger los oc�
 date: "2024-11-04"
 image: "/img/n-monktail-scaled-1.webp"
 image_width: "1200"
-image_height: "699"
-summary: "El anisakis, un parásito cada vez más presente en los pescados de nuestros mares, sigue generando preocupación entre los consumidores y plantea preguntas sobre la seguridad alimentaria en restaurantes y hogares.…"
-description: "El anisakis, un parásito cada vez más presente en los pescados de nuestros mares, sigue generando preocupación entre los consumidores y plantea preguntas s"
+image_height: "680"
+summary: "El anisakis, un parásito cada vez más presente en los pescados de nuestros mares, sigue generando preocupación entre los consumidores y plantea preguntas sobre la seguridad alimentaria en restaurantes y hogares."
+description: "El anisakis sigue generando preocupación entre los consumidores y plantea preguntas sobre la seguridad alimentaria en restaurantes y hogares."
 translationKey: "2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos"
 ---
 <p>El anisakis, un parásito cada vez más presente en los pescados de nuestros mares, sigue generando preocupación entre los consumidores y plantea preguntas sobre la seguridad alimentaria en restaurantes y hogares. Recientemente, un comensal relató su experiencia en un restaurante, donde un rape al horno llegó a la mesa acompañado de este nematodo, visiblemente presente en el plato.</p>
@@ -25,11 +25,11 @@ translationKey: "2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-
 
 
 <ul>
-<li>Congelar el pescado durante al menos 5 días a -20 °C en congeladores de 3 estrellas o más.</li>
+<li>Congelar el pescado a -15 °C o menos durante al menos 4 días (contando 5 días desde que se introduce en el congelador).</li>
 
 
 
-<li>Cocinar el pescado a una temperatura interna de 60 °C durante al menos 1 minuto.</li>
+<li>Cocinar el pescado hasta alcanzar 60 °C durante al menos 1 minuto en toda la pieza.</li>
 </ul>
 
 
