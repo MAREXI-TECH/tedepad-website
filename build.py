@@ -3,7 +3,7 @@
 Las páginas que no son noticias (portada, productos, quiénes somos, contacto, textos legales…) son archivos fijos del
 repositorio y se copian tal cual. Las noticias salen de content/noticias/{es,en}/*.md (las escribe el panel /admin/)
 con las plantillas de plantillas/ (sacadas de la propia web). Todo lo que llega del panel se trata como no fiable:
-ver las defensas en el README, «Panel de noticias».
+ver las defensas en la documentación técnica interna.
 
     python build.py          → genera _site/
 """
@@ -127,7 +127,7 @@ def warn(msg):
     PROBLEMS.append(msg)
 
 
-# Lo que llega del panel de noticias se trata como no fiable (ver README, «Panel de noticias»)
+# Lo que llega del panel de noticias se trata como no fiable (ver documentación técnica interna)
 SLUG_OK = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*')
 IMG_OK = re.compile(r'/img/noticias/[A-Za-z0-9._-]+\.(?:webp|jpe?g|png|gif|avif)')
 IMG_EXT = ('.webp', '.jpg', '.jpeg', '.png', '.gif', '.avif')
@@ -642,7 +642,7 @@ WRITTEN = set()
 # >>> SI SE CAMBIA UNO DE ESTOS SCRIPTS (o se añade uno nuevo), HAY QUE ACTUALIZAR SU HUELLA AQUÍ: <<<
 #     1. python build.py  → el error dice la huella nueva y la página («script en línea no permitido … sha256-…»).
 #     2. Comprobar que el cambio es legítimo, cambiar la huella en esta lista y volver a generar.
-#     3. Es un cambio de código: commit + `bash tools/huella_codigo.sh --update` (ver README, «Política de seguridad»).
+#     3. Es un cambio de código: commit + `bash tools/huella_codigo.sh --update` (ver documentación técnica interna).
 CSP_SCRIPTS = {
     'sha256-8OLQNo+0ITeLpdX9wZWkhYocwJ0tAfmxepRfFv2UEyI=': 'formulario de contacto (pie de todas las páginas: plantillas/pie-*.html)',
     'sha256-GKnTzhpdeBdn4djT++K/ZVvrjXsF/DsWTs/jEML+YEk=': 'redirección de direcciones antiguas (404.html)',
@@ -716,7 +716,7 @@ class CspCheck(HTMLParser):
                 h = 'sha256-' + base64.b64encode(hashlib.sha256(code.encode('utf-8')).digest()).decode()
                 if h not in CSP_SCRIPTS:
                     self.problems.append(f'script en línea no permitido ({h}). Si el cambio es legítimo, añadir esa '
-                                         f'huella a CSP_SCRIPTS en build.py (ver README, «Política de seguridad»)')
+                                         f'huella a CSP_SCRIPTS en build.py (ver documentación técnica interna)')
             self.in_script, self.script = False, None
 
     def handle_data(self, data):
