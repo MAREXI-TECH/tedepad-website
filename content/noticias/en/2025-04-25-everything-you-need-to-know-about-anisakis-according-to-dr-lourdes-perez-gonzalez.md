@@ -1,47 +1,38 @@
 ---
 title: "Everything you need to know about anisakis according to Dr. Lourdes Pérez González"
 date: "2025-04-25"
-image: "/img/n-lourdes-perez-gonzalez-e1745426618571.webp"
+image: "/img/noticias/n-lourdes-perez-gonzalez-e1745426618571.webp"
 image_width: "1200"
 image_height: "680"
 summary: "Anisakis is a marine parasite that is increasingly present in the food health conversation. It can be found in fish and cephalopods that we frequently consume and, in some cases, can cause everything from digestive…"
 description: "Anisakis is a marine parasite that is increasingly present in the food health conversation. It can be found in fish and cephalopods that we frequently cons"
 translationKey: "2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez"
 ---
-<p>Anisakis is a marine parasite that is increasingly present in the food health conversation. It can be found in fish and cephalopods that we frequently consume and, in some cases, can cause everything from digestive discomfort to severe allergic reactions. </p>
 
-<p>As Dr. Lourdes Pérez González, of the Hospital Universitario Quirónsalud Madrid, points out, it is the larval form that represents a risk to humans, as it lodges in fish such as hake, anchovies, mackerel or squid, among others. Recent studies warn that some species have a parasitization rate of more than 90%. </p>
+Anisakis is a marine parasite that is increasingly present in the food health conversation. It can be found in fish and cephalopods that we frequently consume and, in some cases, can cause everything from digestive discomfort to severe allergic reactions.
 
-<h3>What symptoms can it cause?</h3>
+As Dr. Lourdes Pérez González, of the Hospital Universitario Quirónsalud Madrid, points out, it is the larval form that represents a risk to humans, as it lodges in fish such as hake, anchovies, mackerel or squid, among others. Recent studies warn that some species have a parasitization rate of more than 90%.
 
-<p>Consumption of fish with anisakis may trigger:</p>
+### What symptoms can it cause?
 
-<ul>
-<li>Digestive problems (abdominal pain, vomiting, appendicitis-like symptoms).</li>
+Consumption of fish with anisakis may trigger:
 
+- Digestive problems (abdominal pain, vomiting, appendicitis-like symptoms).
+- Allergic reactions (urticaria, angioedema, even anaphylaxis).
+- Mixed presentations combining both reactions.
 
+### Diagnosis and treatment
 
-<li>Allergic reactions (urticaria, angioedema, even anaphylaxis).</li>
+Diagnosis is based on a clinical history and can be confirmed by allergy testing or, in exceptional cases, by endoscopy. Anisakis-specific IgE (immunoglobulin E) levels may also be a clue after a reaction.
 
+### How to prevent its presence in fish?
 
+Effective measures are available to minimize the risk of infection:
 
-<li>Mixed presentations combining both reactions.</li>
-</ul>
+- Freeze the fish at -20 °C or below for 48 hours.
+- Deep-freeze it below -35 °C for at least 15 hours, or at -15 °C for 96 hours.
+- Cook it above 60 °C for at least 10 minutes.
 
-<h3>Diagnosis and treatment</h3>
+At **Tedepad**, we believe that prevention starts long before the fish reaches your table. That's why we develop technological solutions that act from the source, such as our system to treat viscera on board and reduce the proliferation of anisakis at sea.
 
-<p>Diagnosis is based on a clinical history and can be confirmed by allergy testing or, in exceptional cases, by endoscopy. Anisakis-specific IgE (immunoglobulin E) levels may also be a clue after a reaction. </p>
-
-<h3>How to prevent its presence in fish?</h3>
-
-<p>Effective measures are available to minimize the risk of infection:</p>
-
-<ul>
-<li>Freeze the fish at -20 °C or below for 48 hours.</li>
-<li>Deep-freeze it below -35 °C for at least 15 hours, or at -15 °C for 96 hours.</li>
-<li>Cook it above 60 °C for at least 10 minutes.</li>
-</ul>
-
-<p>At <strong>Tedepad</strong>, we believe that prevention starts long before the fish reaches your table. That's why we develop technological solutions that act from the source, such as our system to treat viscera on board and reduce the proliferation of anisakis at sea. </p>
-
-<p>💡 <strong>If you are part of the fishing or food industry, and you want to improve the safety of your product from the origin</strong>, contact us. Together we can build a safer, more sustainable food chain free of parasitic risks. </p>
+💡 **If you are part of the fishing or food industry, and you want to improve the safety of your product from the origin**, contact us. Together we can build a safer, more sustainable food chain free of parasitic risks.

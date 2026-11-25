@@ -2,7 +2,7 @@
 
 Regla: solo imágenes propias o con licencia libre comprobada (dominio público o CC0; si es CC BY, poner el crédito en la noticia), nunca fotos de prensa ni imágenes desagradables, y todas de 1200 × 680 en WebP.
 
-| Imagen (`img/`) | Origen | Licencia |
+| Imagen (`img/noticias/`) | Origen | Licencia |
 |---|---|---|
 | `n-1719333546552.webp` | Wikimedia Commons, «Barbero visita Mercamadrid con los inspectores municipales (03).jpg» (https://commons.wikimedia.org/wiki/File:Barbero_visita_Mercamadrid_con_los_inspectores_municipales_(03).jpg), de Diario de Madrid, recortada a 1200 × 680 | CC BY 4.0 (crédito puesto en la noticia ES/EN) |
 | `n-679b01a83cee3-r-d-616-56-1.webp` | Wikimedia Commons, «Col·legi Lestonnac.jpg» (https://commons.wikimedia.org/wiki/File:Col%C2%B7legi_Lestonnac.jpg), de AlbertRA, recortada a 1200 × 680 | CC BY-SA 4.0 (crédito puesto en la noticia ES/EN) |

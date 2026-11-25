@@ -134,54 +134,33 @@ IMG_EXT = ('.webp', '.jpg', '.jpeg', '.png', '.gif', '.avif')
 MAX_NEWS_BYTES = 200_000                       # una noticia normal ocupa 2–10 KB
 MAX_LINKS = 12                                 # «Fuentes y enlaces» por noticia
 
-# Noticias publicadas antes del panel (22 = 11 × ES/EN, 19/11/2026): se publican con su HTML original y en sus
-# direcciones de siempre, pero SOLO mientras su texto no cambie (huella SHA-256). Si se edita, se rige como nueva.
-LEGACY_NEWS = {
-    'es/2024-10-21-el-anisakis-un-problema-creciente-vinculado-a-la-pesca-el-consumo-y-el-cambio-climatico.md':
-        'bb2a423f2f73364c7f68eba86a0923e775b450bf75c8cbb799d2dfecf24e628a',
-    'es/2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos.md':
-        '28509700cfb71950b2e3a55255eaed994447f9559d978039beb9a96735b2edd1',
-    'es/2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado.md':
-        '47bc4767e182c184c15109fa01638dce6265f5093940e97376b7a7d3c7dae5b2',
-    'es/2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-de-colon-segun-medicos-espanoles.md':
-        'd2d22aab96448e48af21cd7daf7d4db1d5e2fbef8d876ed90288d5647dc4f3ba',
-    'es/2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-con-un-dispositivo-pionero-validado-por-el-csic.md':
-        '5f73288f8bf6b109be758b7e95a1927e1cf6f7fa94f2becd66198f6def86ccb7',
-    'es/2025-01-13-retiran-del-mercado-espanol-huevas-de-merluza-procedentes-de-marruecos-por-contaminacion-con-anisakis.md':
-        '9276a9d2561fc95b3c6a8639368101a6117b93428a0de58bc3fcd5220d89bdeb',
-    'es/2025-04-10-detectan-alergenos-en-parasitos-de-peces-comerciales-claves-sobre-su-expresion-genetica-y-riesgos-al-consumir-pescado-crudo.md':
-        'e6a8a929f991f879b7b547fb6df54a3f486fdc88ad33fccc969f812c835222b7',
-    'es/2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-tratamiento.md':
-        '2b3463365d8ae9022baed7b2dea55ffd859fe98a700476e197b6d52ffa12c8b4',
-    'es/2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida.md':
-        'e51e65c0c84cc2efb70dcd0bf2dc866fa686f23ef02748b3c61ff12304b21e32',
-    'es/2025-04-21-cinco-especies-de-pescado-con-mas-riesgo-de-anisakis.md':
-        '808823811efedb83a2955e297b26034594a76ff7ed5f666bf3362b54417e4a03',
-    'es/2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez.md':
-        '15a66b6235d5de6b25ed0b3a417fb2958c673072188d837086c45fdd5cae8eaa',
-    'en/2024-10-21-anisakis-a-growing-problem-linked-to-fisheries-consumption-and-climate-change.md':
-        '393125fb623edbe85ddad9bee6c40899aaca106e96d5fac117c5ada98d6e24db',
-    'en/2024-11-04-anisakis-on-our-plates-how-to-reduce-risks-and-protect-the-oceans.md':
-        'c6a4df63439cf687bc23957bdd1887af8e3b9def85053cacf294b686f9b93fd6',
-    'en/2024-11-18-experts-discuss-anisakis-control-in-fish-distribution-at-mercamadrid.md':
-        'a3c0335faf1f8e946be6f37ffebad5e2255c253e67f54cfbf6a7f06251d938c1',
-    'en/2024-12-09-anisakis-may-be-linked-to-colon-cancer-spanish-doctors-say.md':
-        'fa32d23b9e9162be0ba230871c6eaf6f8335225f03ab25ad1f31837398070fe2',
-    'en/2024-12-23-spain-marks-a-milestone-in-the-fight-against-anisakis-with-a-pioneering-device-validated-by-csic.md':
-        'b8422dd83efee6c4e3365820a4df1f4d74c63af18ada8a18418e691815c2b14b',
-    'en/2025-01-13-recall-of-this-fish-from-the-market-due-to-anisakis-contamination.md':
-        '5bc208572ac78ded5ed29f5d7ba51ef5a7de5cec1dc2a0bbf5b5b6b0840f092b',
-    'en/2025-04-10-allergens-detected-in-commercial-fish-parasites-clues-to-their-genetic-expression-and-risks-of-consuming-raw-fish.md':
-        '4646734c0face2cee1266aeca53f5f104a27d34e3730e11edc66ea40c05a69c7',
-    'en/2025-04-14-how-do-i-know-if-i-have-anisakis-causes-symptoms-and-treatment.md':
-        '69bb60109b68d831dad473403f70a635ad7ad0a1bf109d2af44eb6f6c80fd4fa',
-    'en/2025-04-16-food-safety-in-school-canteens-what-can-we-learn-from-the-case-of-lleida.md':
-        'aac2e6540d8c94e945a14f256db4aac102e3342a8521f1c3ff2a755fd2bbd5ba',
-    'en/2025-04-21-these-are-the-five-fish-species-with-the-highest-risk-of-containing-anisakis.md':
-        'fc9f367234dc4783072545958f61ca760acf83796131845cb8f12d4e06edca7d',
-    'en/2025-04-25-everything-you-need-to-know-about-anisakis-according-to-dr-lourdes-perez-gonzalez.md':
-        'b22c15d6b8c6b86bc527f51b6b3a3c03bdc49f2f22549804c73573e229032397',
-}
+# Noticias publicadas antes del panel (22 = 11 × ES/EN, del WordPress): desde el 25/11/2026 están en texto normal
+# (Markdown) y pasan por las mismas reglas que las nuevas; solo conservan su dirección de siempre (/<noticia>/ y
+# /en/<noticia>/ en vez de /noticias/…), para no romper enlaces ni lo que tiene Google.
+OLD_URL_NEWS = frozenset({
+    'es/2024-10-21-el-anisakis-un-problema-creciente-vinculado-a-la-pesca-el-consumo-y-el-cambio-climatico.md',
+    'es/2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos.md',
+    'es/2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado.md',
+    'es/2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-de-colon-segun-medicos-espanoles.md',
+    'es/2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-con-un-dispositivo-pionero-validado-por-el-csic.md',
+    'es/2025-01-13-retiran-del-mercado-espanol-huevas-de-merluza-procedentes-de-marruecos-por-contaminacion-con-anisakis.md',
+    'es/2025-04-10-detectan-alergenos-en-parasitos-de-peces-comerciales-claves-sobre-su-expresion-genetica-y-riesgos-al-consumir-pescado-crudo.md',
+    'es/2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-tratamiento.md',
+    'es/2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida.md',
+    'es/2025-04-21-cinco-especies-de-pescado-con-mas-riesgo-de-anisakis.md',
+    'es/2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez.md',
+    'en/2024-10-21-anisakis-a-growing-problem-linked-to-fisheries-consumption-and-climate-change.md',
+    'en/2024-11-04-anisakis-on-our-plates-how-to-reduce-risks-and-protect-the-oceans.md',
+    'en/2024-11-18-experts-discuss-anisakis-control-in-fish-distribution-at-mercamadrid.md',
+    'en/2024-12-09-anisakis-may-be-linked-to-colon-cancer-spanish-doctors-say.md',
+    'en/2024-12-23-spain-marks-a-milestone-in-the-fight-against-anisakis-with-a-pioneering-device-validated-by-csic.md',
+    'en/2025-01-13-recall-of-this-fish-from-the-market-due-to-anisakis-contamination.md',
+    'en/2025-04-10-allergens-detected-in-commercial-fish-parasites-clues-to-their-genetic-expression-and-risks-of-consuming-raw-fish.md',
+    'en/2025-04-14-how-do-i-know-if-i-have-anisakis-causes-symptoms-and-treatment.md',
+    'en/2025-04-16-food-safety-in-school-canteens-what-can-we-learn-from-the-case-of-lleida.md',
+    'en/2025-04-21-these-are-the-five-fish-species-with-the-highest-risk-of-containing-anisakis.md',
+    'en/2025-04-25-everything-you-need-to-know-about-anisakis-according-to-dr-lourdes-perez-gonzalez.md',
+})
 
 # Comprobación de las direcciones de «Fuentes y enlaces»
 LINK_TYPES = {'fuente': ('Fuente', 'Fuentes'), 'video': ('Vídeo relacionado', 'Vídeos relacionados'),
@@ -341,6 +320,7 @@ def md_inline(t, links=True):
     t = re.sub(r'\*\*((?:[^*\n]|\*(?!\*))+?)\*\*', r'<strong>\1</strong>', t)
     t = re.sub(r'(?<![\w*])\*(?![\s*])([^*\n]+?)(?<!\s)\*(?![\w*])', r'<em>\1</em>', t)
     t = t.replace('  \n', '<br>\n')
+    t = t.replace('\\\n', '<br>\n')                 # salto de línea escrito como «\» al final (editor del panel)
     return re.sub(r'\x00(\d+)\x00', lambda m: hold[int(m.group(1))], t)
 
 
@@ -378,7 +358,6 @@ LINK_LABELS = {
     'en': {'fuente': ('Source', 'Sources'), 'video': ('Related video', 'Related videos'),
            'enlace': ('Related link', 'Related links')},
 }
-LEGACY_IMG = re.compile(r'/img/n-[A-Za-z0-9._-]+\.(?:webp|jpe?g|png)')     # imágenes de las 22 noticias antiguas
 
 T = {
     'es': dict(home='/', who='/quienes-somos/', products='/productos/', support='/soporte/', news='/noticias/',
@@ -481,21 +460,20 @@ def load_news():
                 warn(f'{lang}/{f} se omite (falta la clave que une los dos idiomas)')
                 continue
             rel = f'{lang}/{f}'
-            legacy = LEGACY_NEWS.get(rel) == hashlib.sha256(body.strip().encode('utf-8', 'replace')).hexdigest()
-            if legacy:
-                h = body                                     # HTML original de la web, intacto
+            old_url = rel in OLD_URL_NEWS                   # noticia anterior al panel: conserva su dirección
+            why = body_problem(body) or next((f'«{k}»: ' + body_problem(meta.get(k, ''))
+                                              for k in ('title', 'summary', 'description')
+                                              if body_problem(meta.get(k, ''))), '')
+            if why:
+                warn(f'{rel} NO se publica: {why}')
+                continue
+            h = markdown(body, links=False)
+            if old_url:
                 url = ('/' if lang == 'es' else '/en/') + m.group(2) + '/'
             else:
-                why = body_problem(body) or next((f'«{k}»: ' + body_problem(meta.get(k, ''))
-                                                  for k in ('title', 'summary', 'description')
-                                                  if body_problem(meta.get(k, ''))), '')
-                if why:
-                    warn(f'{rel} NO se publica: {why}')
-                    continue
-                h = markdown(body, links=False)
                 url = ('/noticias/' if lang == 'es' else '/en/news/') + m.group(2) + '/'
             image = meta.get('image', '').strip()
-            if image and not (IMG_OK.fullmatch(image) or (legacy and LEGACY_IMG.fullmatch(image))):
+            if image and not IMG_OK.fullmatch(image):
                 warn(f'{rel}: imagen no válida ({image!r})')
                 image = ''
             try:
@@ -507,7 +485,7 @@ def load_news():
             if not summary:
                 tx = plain(h)
                 summary = tx if len(tx) <= 220 else tx[:220].rsplit(' ', 1)[0] + '…'
-            desc = (meta.get('description', '') if legacy else
+            desc = (meta.get('description', '') if old_url else
                     re.sub(r'\s+', ' ', meta.get('description', '')).strip()[:158]) or (summary or plain(h))[:158]
             links_html = render_links_lang(meta.get('enlaces', []), rel, lang)
             if links_html:
@@ -527,7 +505,7 @@ def load_news():
                     warn(f'{rel}: enlace del crédito de la imagen no válido ({why_c})')
                     credit_url = ''
             found[lang][key] = dict(lang=lang, file=rel, url=url, title=title, date=dt, image=image, iw=iw, ih=ih, credit=credit, credit_url=credit_url,
-                                    summary=summary, desc=desc, html=h, legacy=legacy)
+                                    summary=summary, desc=desc, html=h, legacy=old_url)
     news = []
     for key, es in found['es'].items():
         news.append({'key': key, 'es': es, 'en': found['en'].get(key)})
