@@ -138,49 +138,49 @@ MAX_LINKS = 12                                 # «Fuentes y enlaces» por notic
 # direcciones de siempre, pero SOLO mientras su texto no cambie (huella SHA-256). Si se edita, se rige como nueva.
 LEGACY_NEWS = {
     'es/2024-10-21-el-anisakis-un-problema-creciente-vinculado-a-la-pesca-el-consumo-y-el-cambio-climatico.md':
-        'd360393580ef9b81268cb49424791d6b2f3b1d14d261cd252de2d2ac6221c0ab',
+        'bb2a423f2f73364c7f68eba86a0923e775b450bf75c8cbb799d2dfecf24e628a',
     'es/2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos.md':
-        'c93853ce2bf128aca74e876da96b0cbc38df7e0d9e22595ebd732ba5655e6e41',
+        '28509700cfb71950b2e3a55255eaed994447f9559d978039beb9a96735b2edd1',
     'es/2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado.md':
-        'ea9a88da5d8a196f3814d17a996fdaf32e24786e85592284809606dfa146604e',
+        '47bc4767e182c184c15109fa01638dce6265f5093940e97376b7a7d3c7dae5b2',
     'es/2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-de-colon-segun-medicos-espanoles.md':
-        '76be458d9cf0e50f5b24c3a8b973ec6c353b70fd93af621551d615e0022b64d1',
+        'd2d22aab96448e48af21cd7daf7d4db1d5e2fbef8d876ed90288d5647dc4f3ba',
     'es/2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-con-un-dispositivo-pionero-validado-por-el-csic.md':
-        '8232a6d3558a37e9208d29fe7bf02b9639d8a4fa0861244d9f72cade561a4fa4',
+        '5f73288f8bf6b109be758b7e95a1927e1cf6f7fa94f2becd66198f6def86ccb7',
     'es/2025-01-13-retiran-del-mercado-espanol-huevas-de-merluza-procedentes-de-marruecos-por-contaminacion-con-anisakis.md':
-        'd1bdc7ff92b61b49fc3fad08980cea7fa28dc96f6809c5ef3d3c46f6b7558a7d',
+        '9276a9d2561fc95b3c6a8639368101a6117b93428a0de58bc3fcd5220d89bdeb',
     'es/2025-04-10-detectan-alergenos-en-parasitos-de-peces-comerciales-claves-sobre-su-expresion-genetica-y-riesgos-al-consumir-pescado-crudo.md':
-        '4322e6db0a7b157468d1bec21f9439a310f5ea0fba60976ae63ecdb0bf2aa5c5',
+        'e6a8a929f991f879b7b547fb6df54a3f486fdc88ad33fccc969f812c835222b7',
     'es/2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-tratamiento.md':
-        'bac02947d8d8aee08ed9e108a6ed0f4eee2e07b7ac6c6f09acb131fe06990184',
+        '2b3463365d8ae9022baed7b2dea55ffd859fe98a700476e197b6d52ffa12c8b4',
     'es/2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida.md':
-        '3e5bb0306c19dfd6c623f40cc24a4c845c8242152f1428ad934badcea8bb1294',
+        'e51e65c0c84cc2efb70dcd0bf2dc866fa686f23ef02748b3c61ff12304b21e32',
     'es/2025-04-21-cinco-especies-de-pescado-con-mas-riesgo-de-anisakis.md':
-        'aec77f2d9d031b870483aed23e2bcacb8ae3a328e43bf14f173e168b620f2cd0',
+        '808823811efedb83a2955e297b26034594a76ff7ed5f666bf3362b54417e4a03',
     'es/2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez.md':
-        '7c9bd8cd39eb27ad5e53e188372227707b222a28bf00990ba5729294b4aac452',
+        '15a66b6235d5de6b25ed0b3a417fb2958c673072188d837086c45fdd5cae8eaa',
     'en/2024-10-21-anisakis-a-growing-problem-linked-to-fisheries-consumption-and-climate-change.md':
-        'cd2bfdab48fd9703aab7e5f34a13e8c486bb14b4e65ad4068212d7e420828a5f',
+        '393125fb623edbe85ddad9bee6c40899aaca106e96d5fac117c5ada98d6e24db',
     'en/2024-11-04-anisakis-on-our-plates-how-to-reduce-risks-and-protect-the-oceans.md':
-        'c32288e898d4d2812c47cedaf723e4475fefb5b914dafe9634dcb64a4aa62a56',
+        'c6a4df63439cf687bc23957bdd1887af8e3b9def85053cacf294b686f9b93fd6',
     'en/2024-11-18-experts-discuss-anisakis-control-in-fish-distribution-at-mercamadrid.md':
-        'e20ea83d7ad0d4cf91a0f380304451e0c4480f0d211fe8ddc7e63420e3dec2ac',
+        'a3c0335faf1f8e946be6f37ffebad5e2255c253e67f54cfbf6a7f06251d938c1',
     'en/2024-12-09-anisakis-may-be-linked-to-colon-cancer-spanish-doctors-say.md':
-        'ec9916e0e5f4d297ec084ac694a140bf5768c7536ac03dbbc511ed00f2a8e9da',
+        'fa32d23b9e9162be0ba230871c6eaf6f8335225f03ab25ad1f31837398070fe2',
     'en/2024-12-23-spain-marks-a-milestone-in-the-fight-against-anisakis-with-a-pioneering-device-validated-by-csic.md':
-        'e8bd05869067dee8f42591ff37727a6f033973cfc7219f6dbf9534c81a0d7d74',
+        'b8422dd83efee6c4e3365820a4df1f4d74c63af18ada8a18418e691815c2b14b',
     'en/2025-01-13-recall-of-this-fish-from-the-market-due-to-anisakis-contamination.md':
-        'b802c311e2de4a51f963b2efed603253a81d72f8fef0629f6ca0fdb0ed16c2c2',
+        '5bc208572ac78ded5ed29f5d7ba51ef5a7de5cec1dc2a0bbf5b5b6b0840f092b',
     'en/2025-04-10-allergens-detected-in-commercial-fish-parasites-clues-to-their-genetic-expression-and-risks-of-consuming-raw-fish.md':
-        '17e734f9ea460dd60ea5f1e1684523ef087200daf10b9f60deaefa25c6b807d8',
+        '4646734c0face2cee1266aeca53f5f104a27d34e3730e11edc66ea40c05a69c7',
     'en/2025-04-14-how-do-i-know-if-i-have-anisakis-causes-symptoms-and-treatment.md':
-        '4fa3a462a133b42110d96d8f47d7d1f75ec0cd7e8ecf27fb9076fe56832cd4fa',
+        '69bb60109b68d831dad473403f70a635ad7ad0a1bf109d2af44eb6f6c80fd4fa',
     'en/2025-04-16-food-safety-in-school-canteens-what-can-we-learn-from-the-case-of-lleida.md':
-        '9a40f6a245f4fbb01c5ab28a9754386dd067408ed534f188d8b73e9d6bc6cc94',
+        'aac2e6540d8c94e945a14f256db4aac102e3342a8521f1c3ff2a755fd2bbd5ba',
     'en/2025-04-21-these-are-the-five-fish-species-with-the-highest-risk-of-containing-anisakis.md':
-        '1628aaacdeb196d2a0f8621da70f38c3bee0522f191ad3cde9633877b10259b2',
+        'fc9f367234dc4783072545958f61ca760acf83796131845cb8f12d4e06edca7d',
     'en/2025-04-25-everything-you-need-to-know-about-anisakis-according-to-dr-lourdes-perez-gonzalez.md':
-        '62ab49b7cbc112900b1097f1161dcbed824b5eb479a219ae9b27e52fb07c6b30',
+        'b22c15d6b8c6b86bc527f51b6b3a3c03bdc49f2f22549804c73573e229032397',
 }
 
 # Comprobación de las direcciones de «Fuentes y enlaces»
@@ -515,7 +515,18 @@ def load_news():
             if key in found[lang]:
                 warn(f'{rel}: ya hay otra noticia con la misma clave ({key})')
                 continue
-            found[lang][key] = dict(lang=lang, file=rel, url=url, title=title, date=dt, image=image, iw=iw, ih=ih,
+            # Crédito de la imagen (pie discreto debajo): texto sin direcciones web y, si hace falta, enlace https comprobado
+            credit = re.sub(r'\s+', ' ', meta.get('image_credit', '')).strip()[:200] if image else ''
+            if credit and body_problem(credit):
+                warn(f'{rel}: el crédito de la imagen no puede llevar direcciones web (van en image_credit_url)')
+                credit = ''
+            credit_url = ''
+            if credit and meta.get('image_credit_url', '').strip():
+                credit_url, why_c = check_external_url(meta['image_credit_url'])
+                if not credit_url:
+                    warn(f'{rel}: enlace del crédito de la imagen no válido ({why_c})')
+                    credit_url = ''
+            found[lang][key] = dict(lang=lang, file=rel, url=url, title=title, date=dt, image=image, iw=iw, ih=ih, credit=credit, credit_url=credit_url,
                                     summary=summary, desc=desc, html=h, legacy=legacy)
     news = []
     for key, es in found['es'].items():
@@ -575,6 +586,12 @@ def build_post(n, lang, news):
     other = n['en' if lang == 'es' else 'es']
     alt = other['url'] if other else T['en' if lang == 'es' else 'es']['news']
     hero = f'<img class="post-img" src="{v["image"]}" alt="" width="{v["iw"]}" height="{v["ih"]}">' if v['image'] else ''
+    if v['image'] and v['credit']:
+        c = esc(v['credit'])
+        if v['credit_url']:
+            c = f'<a href="{esc(v["credit_url"])}" rel="nofollow noopener noreferrer" style="color:inherit">{c}</a>'
+        hero += (f'<p class="img-credit" style="margin:-20px 0 22px;font-size:.75rem;color:var(--muted);'
+                 f'text-align:right">{c}</p>')
     others = [x[lang] for x in news if x[lang] and x is not n][:3]
     body = f'''<article class="post"><div class="wrap narrow"><p class="back"><a href="{t['news']}">← {t['back']}</a></p>
   <time datetime="{v['date'].isoformat()}">{date_str(v['date'], lang)}</time><h1>{esc(v['title'])}</h1>{hero}<div class="post-body">{v['html']}</div></div></article>

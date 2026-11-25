@@ -2,8 +2,10 @@
 title: "Seguridad alimentaria en comedores escolares: ¿qué podemos aprender del caso de Lleida?"
 date: "2025-04-16"
 image: "/img/n-679b01a83cee3-r-d-616-56-1.webp"
-image_width: "990"
-image_height: "660"
+image_width: "1200"
+image_height: "680"
+image_credit: "Imagen: AlbertRA, Wikimedia Commons (CC BY-SA 4.0, recortada)"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Col%C2%B7legi_Lestonnac.jpg"
 summary: "La reciente aparición de gusanos en raciones del comedor escolar del colegio Lestonnac de Lleida ha generado preocupación entre las familias y ha puesto en evidencia la importancia de mantener altos estándares de…"
 description: "La reciente aparición de gusanos en raciones del comedor escolar del colegio Lestonnac de Lleida ha generado preocupación entre las familias y ha puesto en"
 translationKey: "2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida"
@@ -16,7 +18,7 @@ translationKey: "2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-pod
 
 
 
-<p>En enero de 2025, se detectaron pequeños gusanos en algunas raciones de lentejas, arroz y verduras servidas en el comedor del colegio Lestonnac. Este hallazgo ocurrió poco más de dos meses después de que se encontraran gusanos, posiblemente anisakis, en filetes de pescado fresco en el mismo centro. Aunque las autoridades sanitarias no identificaron riesgos graves para la salud en ninguno de los casos, la repetición de estos incidentes ha generado inquietud entre las familias y ha llevado a la dirección del colegio a considerar un cambio en la empresa encargada del servicio de comedor.</p>
+<p>En enero de 2025, se detectaron pequeños gusanos en algunas raciones de lentejas con arroz y verduras servidas en el comedor del colegio Lestonnac. Este hallazgo ocurrió poco más de dos meses después de que se encontraran gusanos, posiblemente anisakis, en filetes de pescado fresco en el mismo centro. Aunque las autoridades sanitarias descartaron riesgos para la salud de los escolares en el caso de enero, la repetición de estos incidentes ha generado inquietud entre las familias y ha llevado a la dirección del colegio a considerar un cambio en la empresa encargada del servicio de comedor.</p>
 
 
 
@@ -51,5 +53,3 @@ translationKey: "2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-pod
 
 
 <p>Los incidentes ocurridos en el colegio Lestonnac de Lleida resaltan la importancia de mantener una vigilancia constante y de implementar medidas preventivas para asegurar la calidad de los alimentos en los comedores escolares. La seguridad alimentaria no solo es responsabilidad de las empresas proveedoras, sino también de los centros educativos, las autoridades sanitarias y las familias. En ese esfuerzo conjunto, tecnologías como las de <strong>Tedepad</strong> juegan un papel fundamental, permitiendo tratar las vísceras del pescado antes de devolverlas al mar y reduciendo así la proliferación de parásitos como el anisakis en la cadena alimentaria. Trabajando juntos, desde el origen hasta el plato, podemos garantizar que los estudiantes reciban alimentos seguros y nutritivos que contribuyan a su desarrollo y bienestar.</p>
-
-<p><em>Imagen: «Col·legi Lestonnac», de AlbertRA, en <a href="https://commons.wikimedia.org/wiki/File:Col%C2%B7legi_Lestonnac.jpg">Wikimedia Commons</a>, con licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a> (recortada).</em></p>

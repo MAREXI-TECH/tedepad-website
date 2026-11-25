@@ -3,14 +3,14 @@ title: "Spain marks a milestone in the fight against anisakis with a pioneering 
 date: "2024-12-23"
 image: "/img/n-1716308231361.webp"
 image_width: "1200"
-image_height: "912"
-summary: "Image obtained from Marexi's Linkedin. Two companies from Vigo, Industrias Ferri and Marexi , have revolutionized the fishing sector with the development of Tedepad (Technological Device for Avoiding Parasite Discarding…"
-description: "Image obtained from Marexi's Linkedin. Two companies from Vigo, Industrias Ferri and Marexi , have revolutionized the fishing sector with the development o"
+image_height: "680"
+image_credit: "Image: Marexi"
+summary: "Two Galician companies, Industrias Ferri and Marexi, have revolutionized the fishing sector with the development of Tedepad (Technological Device for Avoiding Parasite Discarding at Sea), the first technological system designed to eliminate anisakis at sea."
+description: "Industrias Ferri and Marexi develop Tedepad, the first technological system designed to eliminate anisakis at sea."
 translationKey: "2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-con-un-dispositivo-pionero-validado-por-el-csic"
 ---
-<p><em>Image obtained from Marexi's Linkedin.</em></p>
 
-<p>Two companies from Vigo, <strong>Industrias Ferri and Marexi</strong>, have revolutionized the fishing sector with the development of <strong>Tedepad (Technological Device for Avoiding Parasite Discarding at Sea)</strong>, the <strong>first technological system designed to eliminate anisakis at sea</strong>. This innovative device, recently validated by the <strong>Spanish National Research Council (CSIC)</strong>, represents a crucial advance in food safety and the sustainability of fishing grounds. </p>
+<p>Two Galician companies, <strong>Industrias Ferri and Marexi</strong>, have revolutionized the fishing sector with the development of <strong>Tedepad (Technological Device for Avoiding Parasite Discarding at Sea)</strong>, the <strong>first technological system designed to eliminate anisakis at sea</strong>. This innovative device, recently validated by the <strong>Spanish National Research Council (CSIC)</strong>, represents a crucial advance in food safety and the sustainability of fishing grounds. </p>
 
 <p><strong>The problem: reintroduction of anisakis into the ecosystem</strong></p>
 
@@ -26,7 +26,7 @@ translationKey: "2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-
 
 <p>Tedepad adapts to different needs of fishing vessels, offering three models according to their processing capacity:</p>
 
-<p>🔹 T-XL Yellow: 2240x550x550 mm | Capacity: 600 kg/hour<br/>🔹 T-M Green: 2000x500x500 mm | Capacity: 200 kg/hour<br/>🔹 T-S Blue: 17 50x400x400 mm | Capacity: 50 kg/hour </p>
+<p>🔹 <strong>T-XL Yellow</strong>: 2240x550x550 mm | Capacity: <strong>600 kg/hour</strong><br/>🔹 <strong>T-M Green</strong>: 1400x550x550 mm | Capacity: <strong>200 kg/hour</strong><br/>🔹 <strong>T-S Blue</strong>: 1000x550x550 mm | Capacity: <strong>50 kg/hour</strong></p>
 
 <p>This development represents a <strong>milestone in Spanish fisheries innovation</strong>, consolidating Spain as a benchmark in the technological sector applied to food safety and marine sustainability. With the implementation of Tedepad, the fishing industry will be able to <strong>reduce the impact of anisakis in the oceans</strong> and offer consumers a higher quality and safer product. </p>
 

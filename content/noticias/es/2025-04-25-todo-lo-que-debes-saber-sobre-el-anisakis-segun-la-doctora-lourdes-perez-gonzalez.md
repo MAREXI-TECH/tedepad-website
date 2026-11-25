@@ -2,8 +2,8 @@
 title: "Todo lo que debes saber sobre el anisakis según la doctora Lourdes Pérez González"
 date: "2025-04-25"
 image: "/img/n-lourdes-perez-gonzalez-e1745426618571.webp"
-image_width: "720"
-image_height: "410"
+image_width: "1200"
+image_height: "680"
 summary: "El anisakis es un parásito marino cada vez más presente en la conversación sobre salud alimentaria. Puede encontrarse en pescados y cefalópodos que consumimos con frecuencia y, en algunos casos, generar desde molestias…"
 description: "El anisakis es un parásito marino cada vez más presente en la conversación sobre salud alimentaria. Puede encontrarse en pescados y cefalópodos que consumi"
 translationKey: "2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez"
@@ -42,7 +42,7 @@ translationKey: "2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-d
 
 
 
-<p>El diagnóstico parte de una historia clínica y puede confirmarse con pruebas de alergia o, en casos más severos, mediante endoscopia. Los niveles de IgE (inmunoglobulina E) específicos al anisakis también pueden ser una pista tras una reacción.</p>
+<p>El diagnóstico parte de una historia clínica y puede confirmarse con pruebas de alergia o, en casos excepcionales, mediante endoscopia. Los niveles de IgE (inmunoglobulina E) específicos al anisakis también pueden ser una pista tras una reacción.</p>
 
 
 
@@ -51,6 +51,12 @@ translationKey: "2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-d
 
 
 <p>Existen medidas eficaces para minimizar el riesgo de infección:</p>
+
+<ul>
+<li>Congelar el pescado a una temperatura de al menos -20 °C durante 48 horas.</li>
+<li>Ultracongelarlo por debajo de -35 °C durante al menos 15 horas, o a -15 °C durante 96 horas.</li>
+<li>Cocinarlo a más de 60 °C durante al menos 10 minutos.</li>
+</ul>
 
 
 

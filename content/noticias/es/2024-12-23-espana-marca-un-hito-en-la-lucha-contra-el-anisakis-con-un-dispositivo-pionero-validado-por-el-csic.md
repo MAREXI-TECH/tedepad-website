@@ -3,16 +3,16 @@ title: "España marca un hito en la lucha contra el anisakis con un dispositivo 
 date: "2024-12-23"
 image: "/img/n-1716308231361.webp"
 image_width: "1200"
-image_height: "912"
-summary: "Imagen obtenida del Linkedin de Marexi. Dos empresas viguesas, Industrias Ferri y Marexi , han revolucionado el sector pesquero con el desarrollo de Tedepad (Technological Device for Avoiding Parasite Discarding at Sea)…"
-description: "Imagen obtenida del Linkedin de Marexi. Dos empresas viguesas, Industrias Ferri y Marexi , han revolucionado el sector pesquero con el desarrollo de Tedepa"
+image_height: "680"
+image_credit: "Imagen: Marexi"
+summary: "Dos empresas gallegas, Industrias Ferri y Marexi, han revolucionado el sector pesquero con el desarrollo de Tedepad (Technological Device for Avoiding Parasite Discarding at Sea), el primer sistema tecnológico diseñado para eliminar los anisakis en alta mar."
+description: "Industrias Ferri y Marexi desarrollan Tedepad, el primer sistema tecnológico diseñado para eliminar los anisakis en alta mar."
 translationKey: "2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-con-un-dispositivo-pionero-validado-por-el-csic"
 ---
-<p><em>Imagen obtenida del Linkedin de Marexi.</em></p>
 
 
 
-<p>Dos empresas viguesas, <strong>Industrias Ferri y Marexi</strong>, han revolucionado el sector pesquero con el desarrollo de <strong>Tedepad (Technological Device for Avoiding Parasite Discarding at Sea)</strong>, el <strong>primer sistema tecnológico diseñado para eliminar los anisakis en alta mar</strong>. Este innovador dispositivo, recientemente validado por el <strong>Consejo Superior de Investigaciones Científicas (CSIC)</strong>, supone un avance crucial en la seguridad alimentaria y la sostenibilidad de los caladeros.</p>
+<p>Dos empresas gallegas, <strong>Industrias Ferri y Marexi</strong>, han revolucionado el sector pesquero con el desarrollo de <strong>Tedepad (Technological Device for Avoiding Parasite Discarding at Sea)</strong>, el <strong>primer sistema tecnológico diseñado para eliminar los anisakis en alta mar</strong>. Este innovador dispositivo, recientemente validado por el <strong>Consejo Superior de Investigaciones Científicas (CSIC)</strong>, supone un avance crucial en la seguridad alimentaria y la sostenibilidad de los caladeros.</p>
 
 
 
@@ -44,7 +44,7 @@ translationKey: "2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-
 
 
 
-<p>🔹 <strong>T-XL Amarillo</strong>: 2240x550x550 mm | Capacidad: <strong>600 kg/hora</strong><br>🔹 <strong>T-M Verde</strong>: 2000x500x500 mm | Capacidad: <strong>200 kg/hora</strong><br>🔹 <strong>T-S Azul</strong>: 1750x400x400 mm | Capacidad: <strong>50 kg/hora</strong></p>
+<p>🔹 <strong>T-XL Amarillo</strong>: 2240x550x550 mm | Capacidad: <strong>600 kg/hora</strong><br>🔹 <strong>T-M Verde</strong>: 1400x550x550 mm | Capacidad: <strong>200 kg/hora</strong><br>🔹 <strong>T-S Azul</strong>: 1000x550x550 mm | Capacidad: <strong>50 kg/hora</strong></p>
 
 
 

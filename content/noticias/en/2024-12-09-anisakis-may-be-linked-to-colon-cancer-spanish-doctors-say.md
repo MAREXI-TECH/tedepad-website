@@ -3,20 +3,22 @@ title: "Anisakis may be linked to colon cancer, Spanish doctors say"
 date: "2024-12-09"
 image: "/img/n-freepik-expand-78956.webp"
 image_width: "1200"
-image_height: "686"
-summary: "A recent study conducted by physicians in Spain has raised alarms about a possible link between anisakis, a parasite common in raw fish and shellfish, and the development of colon cancer. Although the findings are…"
-description: "A recent study conducted by physicians in Spain has raised alarms about a possible link between anisakis, a parasite common in raw fish and shellfish, and "
+image_height: "680"
+image_credit: "Image by Freepik (expanded)"
+image_credit_url: "https://www.freepik.com/free-photo/close-up-hands-holding-fresh-fish_5567858.htm"
+summary: "A recent study conducted by physicians in Spain has raised alarms about a possible link between anisakis, a parasite common in fish and cephalopods, and the development of colon cancer. Although the findings are preliminary, they open up a new line of research."
+description: "A study by Spanish doctors points to a possible link between anisakis and colon cancer, although the findings are preliminary."
 translationKey: "2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-de-colon-segun-medicos-espanoles"
 ---
-<p>A recent study conducted by physicians in Spain has raised alarms about a possible link between anisakis, a parasite common in raw fish and shellfish, and the development of colon cancer. Although the findings are preliminary, this connection opens up a new line of research into the risks associated with the consumption of food contaminated by this parasite. </p>
+<p>A recent study conducted by physicians in Spain has raised alarms about a possible link between anisakis, a parasite common in fish and cephalopods, and the development of colon cancer. Although the findings are preliminary, this connection opens up a new line of research into the risks associated with the consumption of food contaminated by this parasite. </p>
 
 <p><strong>What is anisakis and how does it affect health?</strong></p>
 
-<p>Anisakis is a parasite found in fish and shellfish that can cause anisakiasis, a disease that generates symptoms such as abdominal pain, nausea and vomiting after consumption of infected food. However, the new study suggests that the proteins released by anisakis when it invades the human body could trigger chronic inflammation in the intestine, a known risk factor in the development of colon cancer. </p>
+<p>Anisakis is a parasite found in fish and cephalopods that can cause anisakiasis, a disease that generates symptoms such as abdominal pain, nausea and vomiting after consumption of infected food. However, the new study suggests that the proteins released by anisakis when it invades the human body could trigger chronic inflammation in the intestine, a known risk factor in the development of colon cancer. </p>
 
 <p><strong>A new public health concern</strong></p>
 
-<p>Experts warn that this intestinal inflammation, sustained over time, could be behind some cases of colon cancer. "Although a direct causal relationship has not yet been established, the initial data are worrisome and warrant attention," the researchers said. </p>
+<p>Experts warn that this intestinal inflammation, sustained over time, could be behind some cases of colon cancer. Although a direct causal relationship has not yet been established, the researchers say their results suggest an association that warrants attention. </p>
 
 <p>In countries such as Spain, where fish and seafood are fundamental in the diet, the finding highlights the need to take extreme precautions when handling and consuming these foods.</p>
 

@@ -1,14 +1,16 @@
 ---
-title: "Estas son las cinco especies de pescado con más riesgo de contener anisakis."
+title: "Estas son las cinco especies de pescado con más riesgo de contener anisakis"
 date: "2025-04-21"
 image: "/img/n-6217.webp"
 image_width: "1200"
-image_height: "801"
-summary: "El anisakis es un parásito microscópico que, aunque invisible al ojo desnudo cuando está en fase larvaria, puede convertirse en un problema bien visible en nuestra salud. En los últimos años, las autoridades sanitarias…"
-description: "El anisakis es un parásito microscópico que, aunque invisible al ojo desnudo cuando está en fase larvaria, puede convertirse en un problema bien visible en"
+image_height: "680"
+image_credit: "Imagen de luis_molinero en Freepik"
+image_credit_url: "https://www.freepik.com/free-photo/raw-fish-market_1198587.htm"
+summary: "El anisakis es un parásito pequeño que, aunque puede pasar desapercibido cuando está en fase larvaria, puede convertirse en un problema bien visible en nuestra salud. En los últimos años, las autoridades sanitarias…"
+description: "El anisakis es un parásito pequeño que, aunque puede pasar desapercibido cuando está en fase larvaria, puede convertirse en un problema bien visible en nue"
 translationKey: "2025-04-21-cinco-especies-de-pescado-con-mas-riesgo-de-anisakis"
 ---
-<p>El anisakis es un parásito microscópico que, aunque invisible al ojo desnudo cuando está en fase larvaria, puede convertirse en un problema bien visible en nuestra salud. En los últimos años, las autoridades sanitarias han insistido en la importancia de conocer qué especies presentan más riesgo de estar infectadas y cómo prevenir su transmisión.</p>
+<p>El anisakis es un parásito pequeño que, aunque puede pasar desapercibido cuando está en fase larvaria, puede convertirse en un problema bien visible en nuestra salud. En los últimos años, las autoridades sanitarias han insistido en la importancia de conocer qué especies presentan más riesgo de estar infectadas y cómo prevenir su transmisión.</p>
 
 
 

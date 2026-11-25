@@ -1,14 +1,16 @@
 ---
-title: "These are the five fish species with the highest risk of containing anisakis."
+title: "These are the five fish species with the highest risk of containing anisakis"
 date: "2025-04-21"
 image: "/img/n-6217.webp"
 image_width: "1200"
-image_height: "801"
-summary: "Anisakis is a microscopic parasite that, although invisible to the naked eye when it is in the larval stage, can become a very visible problem in our health. In recent years, health authorities have insisted on the…"
-description: "Anisakis is a microscopic parasite that, although invisible to the naked eye when it is in the larval stage, can become a very visible problem in our healt"
+image_height: "680"
+image_credit: "Image by luis_molinero on Freepik"
+image_credit_url: "https://www.freepik.com/free-photo/raw-fish-market_1198587.htm"
+summary: "Anisakis is a small parasite that, although it can go unnoticed when it is in the larval stage, can become a very visible problem in our health. In recent years, health authorities have insisted on the importance of…"
+description: "Anisakis is a small parasite that, although it can go unnoticed when it is in the larval stage, can become a very visible problem in our health. In recent "
 translationKey: "2025-04-21-cinco-especies-de-pescado-con-mas-riesgo-de-anisakis"
 ---
-<p>Anisakis is a microscopic parasite that, although invisible to the naked eye when it is in the larval stage, can become a very visible problem in our health. In recent years, health authorities have insisted on the importance of knowing which species are most at risk of being infected and how to prevent its transmission. </p>
+<p>Anisakis is a small parasite that, although it can go unnoticed when it is in the larval stage, can become a very visible problem in our health. In recent years, health authorities have insisted on the importance of knowing which species are most at risk of being infected and how to prevent its transmission. </p>
 
 <p>A recent report published in <em>Noticias de Navarra</em> once again puts the spotlight on this issue, and with good reason: the data are clear and worrying.</p>
 

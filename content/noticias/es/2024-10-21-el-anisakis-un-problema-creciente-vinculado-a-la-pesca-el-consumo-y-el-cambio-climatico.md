@@ -3,12 +3,14 @@ title: "El anisakis, un problema creciente vinculado a la pesca, el consumo y el
 date: "2024-10-21"
 image: "/img/n-grey-mullet-water.webp"
 image_width: "1200"
-image_height: "800"
-summary: "En las últimas décadas, el anisakis ha pasado de ser un parásito poco conocido a convertirse en una preocupación importante para consumidores y autoridades sanitarias. Este nematodo, presente en pescados y cefalópodos,…"
-description: "En las últimas décadas, el anisakis ha pasado de ser un parásito poco conocido a convertirse en una preocupación importante para consumidores y autoridades"
+image_height: "680"
+image_credit: "Imagen de bearfotos en Freepik"
+image_credit_url: "https://www.freepik.com/free-photo/grey-mullet-water_1474848.htm"
+summary: "En las últimas décadas, el anisakis ha pasado de ser un parásito poco conocido a convertirse en una preocupación importante para consumidores y autoridades sanitarias."
+description: "El anisakis ha pasado de ser un parásito poco conocido a ser una preocupación importante para consumidores y autoridades sanitarias."
 translationKey: "2024-10-21-el-anisakis-un-problema-creciente-vinculado-a-la-pesca-el-consumo-y-el-cambio-climatico"
 ---
-<p>En las últimas décadas, el anisakis ha pasado de ser un parásito poco conocido a convertirse en una preocupación importante para consumidores y autoridades sanitarias. Este nematodo, presente en pescados y cefalópodos, es responsable de más de 20.000 casos de anisakidosis al año en todo el mundo, 8.000 de ellos en España, según estudios recientes.</p>
+<p>En las últimas décadas, el anisakis ha pasado de ser un parásito poco conocido a convertirse en una preocupación importante para consumidores y autoridades sanitarias. Este nematodo, presente en pescados y cefalópodos, había causado unos 20.000 casos de anisakidosis notificados en todo el mundo hasta 2010, y en España se estiman unos 8.000 casos al año, según estudios recientes.</p>
 
 
 

@@ -2,8 +2,8 @@
 title: "Everything you need to know about anisakis according to Dr. Lourdes Pérez González"
 date: "2025-04-25"
 image: "/img/n-lourdes-perez-gonzalez-e1745426618571.webp"
-image_width: "720"
-image_height: "410"
+image_width: "1200"
+image_height: "680"
 summary: "Anisakis is a marine parasite that is increasingly present in the food health conversation. It can be found in fish and cephalopods that we frequently consume and, in some cases, can cause everything from digestive…"
 description: "Anisakis is a marine parasite that is increasingly present in the food health conversation. It can be found in fish and cephalopods that we frequently cons"
 translationKey: "2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez"
@@ -25,17 +25,23 @@ translationKey: "2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-d
 
 
 
-<li>Mixed tables combining both reactions.</li>
+<li>Mixed presentations combining both reactions.</li>
 </ul>
 
 <h3>Diagnosis and treatment</h3>
 
-<p>Diagnosis is based on a clinical history and can be confirmed by allergy testing or, in more severe cases, by endoscopy. Anisakis-specific IgE (immunoglobulin E) levels may also be a clue after a reaction. </p>
+<p>Diagnosis is based on a clinical history and can be confirmed by allergy testing or, in exceptional cases, by endoscopy. Anisakis-specific IgE (immunoglobulin E) levels may also be a clue after a reaction. </p>
 
 <h3>How to prevent its presence in fish?</h3>
 
 <p>Effective measures are available to minimize the risk of infection:</p>
 
+<ul>
+<li>Freeze the fish at -20 °C or below for 48 hours.</li>
+<li>Deep-freeze it below -35 °C for at least 15 hours, or at -15 °C for 96 hours.</li>
+<li>Cook it above 60 °C for at least 10 minutes.</li>
+</ul>
+
 <p>At <strong>Tedepad</strong>, we believe that prevention starts long before the fish reaches your table. That's why we develop technological solutions that act from the source, such as our system to treat viscera on board and reduce the proliferation of anisakis at sea. </p>
 
-<p>💡 <strong>If you are part of the fishing or food industry, and you want to improve the safety of your product from the origin</strong>, contact us. Together we can build a safer, more sustainable and pest-free food chain. </p>
+<p>💡 <strong>If you are part of the fishing or food industry, and you want to improve the safety of your product from the origin</strong>, contact us. Together we can build a safer, more sustainable food chain free of parasitic risks. </p>

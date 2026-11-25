@@ -3,9 +3,11 @@ title: "Expertos debaten en Mercamadrid sobre el control del anisakis en la dist
 date: "2024-11-18"
 image: "/img/n-1719333546552.webp"
 image_width: "1200"
-image_height: "704"
-summary: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territorio nacional, lo que hace imprescindible la actualización…"
-description: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territori"
+image_height: "680"
+image_credit: "Imagen: Diario de Madrid, Wikimedia Commons (CC BY 4.0, recortada)"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Barbero_visita_Mercamadrid_con_los_inspectores_municipales_(03).jpg"
+summary: "Los mercados mayoristas desempeñan un papel esencial en la distribución de alimentos en todo el territorio nacional, lo que hace imprescindible la actualización constante del personal encargado de la inspección y control oficial de los alimentos."
+description: "Expertos de la administración, la ciencia y el sector pesquero debaten en Mercamadrid sobre el control del anisakis en la distribución de pescado."
 translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado"
 ---
 
@@ -35,7 +37,7 @@ translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del
 
 
 
-<p>Durante las jornadas también se presentó el <strong>proyecto GESTPAR</strong>, una iniciativa clave para el desarrollo de estrategias de <strong>gestión y control del anisakis en la industria pesquera</strong>. Este proyecto, impulsado por diversas instituciones científicas y del sector pesquero, busca mejorar la seguridad alimentaria mediante la implementación de medidas eficaces para <strong>reducir la presencia de anisakis en los productos del mar</strong> antes de su llegada a los mercados y consumidores.</p>
+<p>Durante las jornadas también se presentó el <strong>proyecto GESTPAR</strong>, una iniciativa clave para el desarrollo de estrategias de <strong>gestión y control del anisakis en la industria pesquera</strong>. Este proyecto, encargado por la Secretaría General de Pesca del Ministerio de Agricultura, Pesca y Alimentación al Instituto de Investigaciones Marinas (CSIC), busca mejorar la seguridad alimentaria mediante la implementación de medidas eficaces para <strong>reducir la presencia de anisakis en los productos del mar</strong> antes de su llegada a los mercados y consumidores.</p>
 
 
 
@@ -52,5 +54,3 @@ translationKey: "2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del
 
 
 <p>La jornada concluyó con la promesa de seguir fortaleciendo la colaboración entre administraciones, científicos y empresas del sector para garantizar <strong>un control más riguroso y eficiente del anisakis en la cadena de distribución alimentaria</strong>.</p>
-
-<p><em>Imagen: equipo de Seguridad Alimentaria de Madrid Salud en Mercamadrid («Barbero visita Mercamadrid con los inspectores municipales (03).jpg»), de Diario de Madrid, en <a href="https://commons.wikimedia.org/wiki/File:Barbero_visita_Mercamadrid_con_los_inspectores_municipales_(03).jpg">Wikimedia Commons</a>, con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a> (recortada).</em></p>
