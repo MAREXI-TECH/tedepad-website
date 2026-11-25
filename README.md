@@ -38,6 +38,17 @@ repositorio. Para escribir en inglés: en la noticia, selector de idioma → «I
   un token de editor solo se pueden cambiar noticias. **Tras cambiar código:** commit, `bash tools/huella_codigo.sh
   --update` y commit de `pages.yml`. Cualquier problema de contenido también detiene la publicación (`::error::`) y
   GitHub avisa por correo.
+- **Aprobación antes de publicar (25/11/2026):** el entorno `github-pages` exige la aprobación de **ChristianMarexi**
+  (con verificación en dos pasos; se puede aprobar desde la app de GitHub del móvil). Lo guardado en el panel queda en
+  `main`, pero no sale a la web hasta que se aprueba el despliegue en *Actions* (GitHub avisa por correo; la petición
+  caduca a los 30 días). Si se guardan varias noticias seguidas, basta con aprobar la última ejecución. Así, una clave
+  robada no puede publicar nada. Los editores (p. ej., marketing de Industrias Ferri) no necesitan hacer nada más que
+  guardar. Clave del panel: 90 días; al caducar, crear una nueva y dársela. Mejor cerrar sesión en el panel al terminar
+  en ordenadores compartidos.
+- **Resumen al aprobar:** el paso «Resumen para la aprobación» (`tools/resumen_cambios.py`) muestra en la página de la
+  ejecución qué noticias son nuevas, editadas o borradas, las imágenes y cualquier cambio fuera de las noticias,
+  comparando con lo publicado (`/version.txt`, el commit que está en la web). Los cambios del panel llevan mensajes que
+  empiezan por «Panel:» con la cuenta que los hizo (`commit_messages` en `admin/config.yml`).
 - **Reglas compartidas:** las normas del texto (`BODY_RULES`) y los acortadores (`SHORTENERS`) están en `build.py`;
   `python tools/reglas_panel.py` las copia a los patrones de `admin/config.yml` y la publicación comprueba que
   coinciden.
