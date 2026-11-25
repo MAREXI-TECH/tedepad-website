@@ -142,7 +142,7 @@ LEGACY_NEWS = {
     'es/2024-11-04-el-anisakis-en-nuestros-platos-como-reducir-riesgos-y-proteger-los-oceanos.md':
         '28509700cfb71950b2e3a55255eaed994447f9559d978039beb9a96735b2edd1',
     'es/2024-11-18-expertos-debaten-en-mercamadrid-sobre-el-control-del-anisakis-en-la-distribucion-de-pescado.md':
-        '9d83586c9874d29b442072084e3f4a10be10c42cac2bfe6ae7197ce699d6abf3',
+        '47bc4767e182c184c15109fa01638dce6265f5093940e97376b7a7d3c7dae5b2',
     'es/2024-12-09-el-anisakis-podria-estar-relacionado-con-el-cancer-de-colon-segun-medicos-espanoles.md':
         'd2d22aab96448e48af21cd7daf7d4db1d5e2fbef8d876ed90288d5647dc4f3ba',
     'es/2024-12-23-espana-marca-un-hito-en-la-lucha-contra-el-anisakis-con-un-dispositivo-pionero-validado-por-el-csic.md':
@@ -154,7 +154,7 @@ LEGACY_NEWS = {
     'es/2025-04-14-como-saber-si-tengo-anisakis-causas-sintomas-y-tratamiento.md':
         '2b3463365d8ae9022baed7b2dea55ffd859fe98a700476e197b6d52ffa12c8b4',
     'es/2025-04-16-seguridad-alimentaria-en-comedores-escolares-que-podemos-aprender-del-caso-de-lleida.md':
-        'd153f3b266a83e5bf0ceba737ec78863be55e860eb8c8bb972a8e180e865016e',
+        'e51e65c0c84cc2efb70dcd0bf2dc866fa686f23ef02748b3c61ff12304b21e32',
     'es/2025-04-21-cinco-especies-de-pescado-con-mas-riesgo-de-anisakis.md':
         '808823811efedb83a2955e297b26034594a76ff7ed5f666bf3362b54417e4a03',
     'es/2025-04-25-todo-lo-que-debes-saber-sobre-el-anisakis-segun-la-doctora-lourdes-perez-gonzalez.md':
@@ -164,7 +164,7 @@ LEGACY_NEWS = {
     'en/2024-11-04-anisakis-on-our-plates-how-to-reduce-risks-and-protect-the-oceans.md':
         'c6a4df63439cf687bc23957bdd1887af8e3b9def85053cacf294b686f9b93fd6',
     'en/2024-11-18-experts-discuss-anisakis-control-in-fish-distribution-at-mercamadrid.md':
-        'e1af69b13022abb3a9beb561c7d7f04b7ee71b209bbdfebda3fbb3c98e5a71cb',
+        'a3c0335faf1f8e946be6f37ffebad5e2255c253e67f54cfbf6a7f06251d938c1',
     'en/2024-12-09-anisakis-may-be-linked-to-colon-cancer-spanish-doctors-say.md':
         'fa32d23b9e9162be0ba230871c6eaf6f8335225f03ab25ad1f31837398070fe2',
     'en/2024-12-23-spain-marks-a-milestone-in-the-fight-against-anisakis-with-a-pioneering-device-validated-by-csic.md':
@@ -176,7 +176,7 @@ LEGACY_NEWS = {
     'en/2025-04-14-how-do-i-know-if-i-have-anisakis-causes-symptoms-and-treatment.md':
         '69bb60109b68d831dad473403f70a635ad7ad0a1bf109d2af44eb6f6c80fd4fa',
     'en/2025-04-16-food-safety-in-school-canteens-what-can-we-learn-from-the-case-of-lleida.md':
-        '3d1237773285049b039269a73e0fc519dd0485bafbed4315311dcc38c29f78e4',
+        'aac2e6540d8c94e945a14f256db4aac102e3342a8521f1c3ff2a755fd2bbd5ba',
     'en/2025-04-21-these-are-the-five-fish-species-with-the-highest-risk-of-containing-anisakis.md':
         'fc9f367234dc4783072545958f61ca760acf83796131845cb8f12d4e06edca7d',
     'en/2025-04-25-everything-you-need-to-know-about-anisakis-according-to-dr-lourdes-perez-gonzalez.md':
@@ -515,7 +515,18 @@ def load_news():
             if key in found[lang]:
                 warn(f'{rel}: ya hay otra noticia con la misma clave ({key})')
                 continue
-            found[lang][key] = dict(lang=lang, file=rel, url=url, title=title, date=dt, image=image, iw=iw, ih=ih,
+            # Crédito de la imagen (pie discreto debajo): texto sin direcciones web y, si hace falta, enlace https comprobado
+            credit = re.sub(r'\s+', ' ', meta.get('image_credit', '')).strip()[:200] if image else ''
+            if credit and body_problem(credit):
+                warn(f'{rel}: el crédito de la imagen no puede llevar direcciones web (van en image_credit_url)')
+                credit = ''
+            credit_url = ''
+            if credit and meta.get('image_credit_url', '').strip():
+                credit_url, why_c = check_external_url(meta['image_credit_url'])
+                if not credit_url:
+                    warn(f'{rel}: enlace del crédito de la imagen no válido ({why_c})')
+                    credit_url = ''
+            found[lang][key] = dict(lang=lang, file=rel, url=url, title=title, date=dt, image=image, iw=iw, ih=ih, credit=credit, credit_url=credit_url,
                                     summary=summary, desc=desc, html=h, legacy=legacy)
     news = []
     for key, es in found['es'].items():
@@ -575,6 +586,12 @@ def build_post(n, lang, news):
     other = n['en' if lang == 'es' else 'es']
     alt = other['url'] if other else T['en' if lang == 'es' else 'es']['news']
     hero = f'<img class="post-img" src="{v["image"]}" alt="" width="{v["iw"]}" height="{v["ih"]}">' if v['image'] else ''
+    if v['image'] and v['credit']:
+        c = esc(v['credit'])
+        if v['credit_url']:
+            c = f'<a href="{esc(v["credit_url"])}" rel="nofollow noopener noreferrer" style="color:inherit">{c}</a>'
+        hero += (f'<p class="img-credit" style="margin:-20px 0 22px;font-size:.75rem;color:var(--muted);'
+                 f'text-align:right">{c}</p>')
     others = [x[lang] for x in news if x[lang] and x is not n][:3]
     body = f'''<article class="post"><div class="wrap narrow"><p class="back"><a href="{t['news']}">← {t['back']}</a></p>
   <time datetime="{v['date'].isoformat()}">{date_str(v['date'], lang)}</time><h1>{esc(v['title'])}</h1>{hero}<div class="post-body">{v['html']}</div></div></article>
