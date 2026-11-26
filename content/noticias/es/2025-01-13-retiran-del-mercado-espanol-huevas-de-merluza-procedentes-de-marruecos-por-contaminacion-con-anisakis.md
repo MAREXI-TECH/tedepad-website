@@ -1,5 +1,5 @@
 ---
-title: "Retiran del mercado este pescado por contaminación con anisakis"
+title: "Detienen en la frontera este pescado por contaminación con anisakis"
 date: "2025-01-13"
 image: "/img/noticias/n-freepik-expand-31865.webp"
 image_width: "1200"

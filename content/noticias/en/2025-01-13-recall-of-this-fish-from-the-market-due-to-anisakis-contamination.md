@@ -1,5 +1,5 @@
 ---
-title: "Recall of this fish from the market due to anisakis contamination"
+title: "This fish stopped at the border due to anisakis contamination"
 date: "2025-01-13"
 image: "/img/noticias/n-freepik-expand-31865.webp"
 image_width: "1200"
