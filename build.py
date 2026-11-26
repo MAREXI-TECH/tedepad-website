@@ -766,6 +766,49 @@ def apply_csp():
     return n
 
 
+REDIRECTS = {}   # dirección antigua -> dirección nueva (páginas de redirección; fuera del sitemap)
+
+
+def write_redirect(old, new):
+    """Página en una dirección antigua del WordPress que lleva a la nueva: responde 200 (no 404), noindex,
+    canónica a la nueva y redirección inmediata sin JavaScript (Google la trata como redirección)."""
+    p = os.path.join(OUT, old.strip('/').replace('/', os.sep), 'index.html')
+    if os.path.exists(p) or old in WRITTEN:
+        warn(f'la redirección {old} pisaría una página existente; no se crea')
+        return
+    dest = SITE + new
+    lang = 'en' if old.startswith('/en/') else 'es'
+    texto = 'This page has moved to' if lang == 'en' else 'Esta página está ahora en'
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    open(p, 'w', encoding='utf-8', newline='\n').write(
+        f'<!doctype html>\n<html lang="{lang}">\n<head>\n<meta charset="utf-8">\n<title>TEDEPAD®</title>\n'
+        f'<meta name="robots" content="noindex">\n<link rel="canonical" href="{html.escape(dest)}">\n'
+        f'<meta http-equiv="refresh" content="0; url={html.escape(new)}">\n</head>\n'
+        f'<body><p>{texto} <a href="{html.escape(new)}">{html.escape(dest)}</a></p></body>\n</html>\n')
+    REDIRECTS[old] = new
+
+
+def write_old_redirects():
+    """Direcciones de WordPress de las noticias antiguas (/index.php/AAAA/MM/DD/<noticia>/ y su versión /en/),
+    de sus archivos por días y de /en/home/, que Google tiene registradas y daban 404 (Search Console, 26/11/2026)."""
+    dias = set()
+    for rel in sorted(OLD_URL_NEWS):
+        lang, f = rel.split('/', 1)
+        m = re.fullmatch(r'(\d{4})-(\d{2})-(\d{2})-(.+)\.md', f)
+        if not m:
+            continue
+        y, mo, d, slug = m.groups()
+        pre = '/' if lang == 'es' else '/en/'
+        new = pre + slug + '/'
+        if new not in WRITTEN:          # la noticia no se ha publicado (p. ej. por un problema): no se redirige
+            continue
+        write_redirect(f'{pre}index.php/{y}/{mo}/{d}/{slug}/', new)
+        dias.add((pre, y, mo, d))
+    for pre, y, mo, d in sorted(dias):
+        write_redirect(f'{pre}index.php/{y}/{mo}/{d}/', T['es' if pre == '/' else 'en']['news'])
+    write_redirect('/en/home/', '/en/')
+
+
 def build():
     copy_site()
     news = load_news()
@@ -775,13 +818,14 @@ def build():
         for n in news:
             if n[lang]:
                 write(n[lang]['url'], build_post(n, lang, news))
-    # sitemap con todas las páginas publicadas (fuera /admin/ y la 404)
+    write_old_redirects()
+    # sitemap con todas las páginas publicadas (fuera /admin/, la 404 y las redirecciones)
     urls = []
     for d, _, files in os.walk(OUT):
         if 'index.html' in files:
             rel = '/' + os.path.relpath(d, OUT).replace(os.sep, '/').strip('.').strip('/')
             rel = rel if rel == '/' else rel + '/'
-            if not rel.startswith('/admin/'):
+            if not rel.startswith('/admin/') and rel not in REDIRECTS:
                 urls.append(rel)
     urls.sort(key=lambda u: (u.startswith('/en/'), u))
     today = date.today().isoformat()
